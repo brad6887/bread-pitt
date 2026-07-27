@@ -1,0 +1,6 @@
+# Abbey generated working files
+working/session-context/*
+!working/session-context/.gitkeep
+
+# Local Abbey configuration
+.abbey/config.conf

@@ -1,0 +1,13 @@
+schema_version: 1
+project:
+  name: Bread Pitt
+  slug: bread-pitt
+  description: Track Bread Pitt's starter history, recipes, bakes, observations, and
+    lessons learned.
+framework:
+  name: Abbey
+  schema_version: 1
+paths:
+  planning: docs/planning
+  session_updates: docs/session-updates
+  journal: content/journal
