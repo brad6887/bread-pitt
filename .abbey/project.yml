@@ -4,6 +4,11 @@ project:
   slug: bread-pitt
   description: Track Bread Pitt's starter history, recipes, bakes, observations, and
     lessons learned.
+
+workflow:
+  journal:
+    policy: event-driven
+
 framework:
   name: Abbey
   schema_version: 1
