@@ -1,33 +1,39 @@
 # Bread Pitt Next
 
-Last Reviewed: 2026-07-27
+Last Reviewed: 2026-07-29
 
 ## Current Theme
 
-Project Foundation
+Starter Record Foundation
 
 ## Primary Objective
 
-Establish the first usable Bread Pitt content structure.
+Define and validate a canonical starter-cycle record format using Brad Pitt's
+existing feeding and observation history.
 
 ## Definition of Done
 
-- Bread Pitt-specific content directories exist.
-- The recovered recipe master is preserved as the initial source document.
-- Empty tracked directories use `.gitkeep` only where necessary.
-- The structure supports recipes, starter records, dated bakes, research, media, and future publishing.
-- The structure is documented and reviewable without relying on chat history.
+- A canonical starter profile exists.
+- Each feeding cycle uses one record containing the feed and its later observations.
+- Exact, approximate, inferred, and unknown information are distinguished.
+- The format supports stable references to starter photographs.
+- The July 27 and July 28 feeding cycles validate the format with real history.
+- The structure can support future website timelines and starter analysis.
+- The old split feeding-log and observation directories are removed.
+- The complete change set passes validation and is captured in a session update.
 
 ## Tasks
 
-- [x] Define the initial Bread Pitt content areas.
-- [x] Create directories for recipes, starter records, bakes, research, publishing, media, and sources.
-- [x] Preserve the recovered recipe master.
-- [x] Document ownership and purpose of the content, media, and source directories.
-- [X] Validate the complete session change set.
-- [X] Complete the session update.
-- [ ] Commit and review the project foundation.
+- [x] Review the existing project structure and starter history.
+- [x] Define one feeding cycle as the canonical record boundary.
+- [x] Document the starter content model.
+- [x] Create the Brad Pitt starter profile.
+- [x] Record the July 27 feeding cycle.
+- [x] Record the July 28 feeding cycle.
+- [x] Validate the starter records.
+- [x] Capture the session.
 
 ## Following Session
 
-Define and validate the starter-record format using Bread Pitt's existing feeding and observation history.
+Define and validate the first complete bake record using the July 29
+50/50 White and Whole Wheat sourdough bake.
