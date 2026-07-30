@@ -3,7 +3,7 @@ title: "Bread Pitt Domain Model"
 description: "Defined the initial Bread Pitt domain model and validated its concepts and record boundaries against the existing starter records and July 29 bake workflow."
 date: 2026-07-30
 status: complete
-reviewed: false
+reviewed: true
 session: bread-pitt-domain-model
 tags:
   - Bread Pitt
