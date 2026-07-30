@@ -1,39 +1,38 @@
 # Bread Pitt Next
 
-Last Reviewed: 2026-07-29
+Last Reviewed: 2026-07-30
 
 ## Current Theme
 
-Starter Record Foundation
+Bake Record Foundation
 
 ## Primary Objective
 
-Define and validate a canonical starter-cycle record format using Brad Pitt's
-existing feeding and observation history.
+Define and validate the first complete bake record using the July 29
+50/50 White and Whole Wheat sourdough bake.
 
 ## Definition of Done
 
-- A canonical starter profile exists.
-- Each feeding cycle uses one record containing the feed and its later observations.
+- The July 29 bake has one canonical bake record.
+- The record references Brad Pitt and the starter cycle that supplied the bake.
+- A canonical recipe and identifiable recipe version exist for the intended
+  one-loaf formula and method.
+- Intended recipe instructions remain separate from the actual bake process.
+- Actual ingredient quantities, timing, deviations, observations, equipment,
+  environment information, results, assessment, and media status are recorded.
 - Exact, approximate, inferred, and unknown information are distinguished.
-- The format supports stable references to starter photographs.
-- The July 27 and July 28 feeding cycles validate the format with real history.
-- The structure can support future website timelines and starter analysis.
-- The old split feeding-log and observation directories are removed.
-- The complete change set passes validation and is captured in a session update.
+- The record format is documented and validated against the real bake.
+- The structure supports future bake comparisons and website publishing.
+- The complete change set passes validation and is captured in a session
+  update.
 
 ## Tasks
 
-- [x] Review the existing project structure and starter history.
-- [x] Define one feeding cycle as the canonical record boundary.
-- [x] Document the starter content model.
-- [x] Create the Brad Pitt starter profile.
-- [x] Record the July 27 feeding cycle.
-- [x] Record the July 28 feeding cycle.
-- [x] Validate the starter records.
-- [x] Capture the session.
-
-## Following Session
-
-Define and validate the first complete bake record using the July 29
-50/50 White and Whole Wheat sourdough bake.
+- [ ] Review the July 29 bake notes, photographs, and known timeline.
+- [ ] Identify and record the starter cycle that supplied the bake.
+- [ ] Define the minimum canonical recipe and recipe-version format.
+- [ ] Create the 50/50 White and Whole Wheat sourdough recipe record.
+- [ ] Define the canonical bake-record format.
+- [ ] Create the July 29 bake record.
+- [ ] Validate the recipe and bake records against the domain model.
+- [ ] Capture the session.

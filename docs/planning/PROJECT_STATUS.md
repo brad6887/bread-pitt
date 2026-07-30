@@ -1,10 +1,11 @@
 # Bread Pitt Project Status
 
-Last Updated: 2026-07-29
+Last Updated: 2026-07-30
 
 ## Project Snapshot
 
-Track Bread Pitt's starter history, recipes, bakes, observations, and lessons learned.
+Track Bread Pitt's starter history, recipes, bakes, observations, and lessons
+learned.
 
 ## Durable Capabilities
 
@@ -13,28 +14,34 @@ Track Bread Pitt's starter history, recipes, bakes, observations, and lessons le
 - The recovered recipe master is retained at
   `sources/Bread_Pitt_Recovered_Recipe_Master_v2.docx` as the initial source
   document while individual canonical recipe records are developed.
-
-- Canonical starter profiles and feeding-cycle records now exist. Each
-  feeding-cycle record keeps feed details, observations, outcomes, assessments,
-  and media references together as one source of truth.
+- Canonical starter profiles and feeding-cycle records exist. Each feeding
+  cycle keeps its feed, observations, outcome, assessment, and media references
+  together as one source of truth.
+- The initial Bread Pitt domain model defines the project's primary concepts,
+  relationships, information layers, and record-ownership boundaries.
+- Recipes describe intended repeatable instructions, while bake records
+  describe what happened during individual attempts.
+- Canonical content, source material, media, derived analysis, and publishing
+  output have distinct responsibilities.
 
 ## Current Session
 
 ### Objective
 
-Define and validate a canonical starter-cycle record format using Brad Pitt's
-existing feeding and observation history.
+Define and document the initial Bread Pitt domain model, incorporating the
+established starter-record model and validating the broader relationships
+against the July 29 sourdough bake.
 
 ### Definition of Done
 
-- A canonical starter profile exists.
-- Each feeding cycle uses one record containing the feed and its later observations.
-- Exact, approximate, inferred, and unknown information are distinguished.
-- The format supports stable references to starter photographs.
-- The July 27 and July 28 feeding cycles validate the format with real history.
-- The structure can support future website timelines and starter analysis.
-- The old split feeding-log and observation directories are removed.
-- The complete change set passes validation and is captured in a session update.
+- One authoritative document defines the initial Bread Pitt domain model.
+- Primary records and supporting concepts are defined.
+- Record ownership prevents duplicate sources of truth.
+- Existing starter records fit the model without restructuring.
+- The July 29 bake can be represented by the model.
+- Information layers are clearly distinguished.
+- Implementation work outside the domain model remains deferred.
+- Planning and session documentation capture the decisions.
 
 ### Status
 
@@ -43,4 +50,5 @@ Complete.
 ## Suggested Next Step
 
 Define and validate the first complete bake record using the July 29
-50/50 White and Whole Wheat sourdough bake.
+50/50 White and Whole Wheat sourdough bake, including the minimum recipe-version
+and starter-cycle records required by the domain model.
