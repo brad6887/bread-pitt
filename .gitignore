@@ -13,3 +13,4 @@ working/session-context/*
 # Astro and package-manager working files
 .astro/
 node_modules/
+dist/

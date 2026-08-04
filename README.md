@@ -11,7 +11,7 @@ abbey session
 
 ## Website
 
-The Astro source lives in `src/` and builds to the static `site/` directory.
+The Astro source lives in `src/` and builds to the ignored `dist/` directory.
 Install dependencies and preview it locally with:
 
 ```text
@@ -20,7 +20,7 @@ pnpm dev
 ```
 
 Create a production build with `pnpm build`. GitHub Actions validates pull
-requests that change the site and deploys the generated `site/` directory to
+requests that change the site and deploys the generated `dist/` directory to
 GitHub Pages after those changes reach `main`. The custom domain is managed in
 the repository's GitHub Pages settings, not in a `CNAME` file.
 
