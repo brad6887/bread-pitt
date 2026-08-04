@@ -4,33 +4,37 @@ Last Reviewed: 2026-08-03
 
 ## Current Theme
 
-Independent Website Rollout
+Bread Pitt Starter Story
 
 ## Primary Objective
 
-Complete the GitHub Pages and domain configuration needed to publish Bread Pitt
-independently at `https://breadpitt.net`.
+Define and publish the story of Bread Pitt 2.0 as the first complete content
+page on the independent Bread Pitt website.
 
 ## Definition of Done
 
-- GitHub Pages uses GitHub Actions as its publishing source.
-- The Pages workflow deploys the standalone site from `main`.
-- `breadpitt.net` is saved as the repository's custom domain.
-- Required apex and optional `www` DNS records point to GitHub Pages.
-- HTTPS is enforced after certificate provisioning.
-- The public site loads successfully at `https://breadpitt.net`.
+- The story explains what happened to Bread Pitt 1.0 during the move.
+- The beginning and early difficulties of Bread Pitt 2.0 are documented.
+- Important feeding changes and signs of improvement are included.
+- Representative starter photographs are selected and incorporated.
+- The story reaches the point where Bread Pitt was ready for the July 29 bake.
+- The page fits the developing Bread Pitt site structure.
+- The story is linked from the appropriate site navigation or landing page.
+- Local site validation passes.
+- The published page is verified at `https://breadpitt.net`.
+- The completed work is captured in a session update.
 
 ## Tasks
 
-- [ ] Review and merge the independent-site change set to `main`.
-- [ ] Enable GitHub Pages with GitHub Actions as the publishing source.
-- [ ] Confirm the Pages workflow deploys successfully.
-- [ ] Set `breadpitt.net` as the custom domain.
-- [ ] Configure and verify the required DNS records.
-- [ ] Enable HTTPS after certificate provisioning.
-- [ ] Verify the public site and capture session completion.
+- [ ] Gather the starter timeline, observations, and photographs.
+- [ ] Define the starter-story page structure.
+- [ ] Write the Bread Pitt 2.0 story.
+- [ ] Add the page to the standalone site.
+- [ ] Connect the story to the site navigation or landing page.
+- [ ] Validate locally and through GitHub Pages.
+- [ ] Capture and review the completed session.
 
 ## Following Session
 
-Define and validate the first complete bake record using the July 29
-50/50 White and Whole Wheat sourdough bake.
+Define and validate the first complete bake record using the July 29 50/50 White
+and Whole Wheat sourdough bake.

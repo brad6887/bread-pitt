@@ -3,7 +3,7 @@ title: "Launch Bread Pitt on GitHub Pages"
 description: "Completed the public launch of Bread Pitt at breadpitt.net using GitHub Pages, Hostinger DNS, and enforced HTTPS."
 date: 2026-08-03
 status: pending
-reviewed: false
+reviewed: true
 session: launch-bread-pitt-on-github-pages
 tags:
   - Abbey Root

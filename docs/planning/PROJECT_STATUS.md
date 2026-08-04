@@ -13,35 +13,28 @@ Track Bread Pitt's starter history, recipes, bakes, observations, and lessons le
 - The recovered recipe master is retained at
   `sources/Bread_Pitt_Recovered_Recipe_Master_v2.docx` as the initial source
   document while individual canonical recipe records are developed.
-
-- Canonical starter profiles and feeding-cycle records now exist. Each
-  feeding-cycle record keeps feed details, observations, outcomes, assessments,
-  and media references together as one source of truth.
-- A standalone static site and GitHub Pages Actions workflow now provide an
-  independent publishing foundation with no Abbey Root runtime dependency.
+- Canonical starter profiles and feeding-cycle records exist. Each feeding-cycle
+  record keeps feed details, observations, outcomes, assessments, and media
+  references together as one source of truth.
+- Bread Pitt is publicly available at `https://breadpitt.net` through GitHub
+  Pages.
+- Changes to the standalone static site on `main` are deployed through GitHub
+  Actions.
+- The custom domain and alternate `www` hostname resolve through GitHub Pages,
+  and HTTPS is enforced.
 
 ## Current Session
 
-### Objective
+### Completed
 
-Establish Bread Pitt as an independently built and deployed GitHub Pages site,
-ready to serve at `breadpitt.net`.
+Launched Bread Pitt as an independent public website at
+`https://breadpitt.net`.
 
-### Definition of Done
-
-- The repository contains a standalone static site with no Abbey Root runtime dependency.
-- Pull requests validate the site entry point without deploying it.
-- Changes to the site on `main` publish through GitHub's supported Pages Actions flow.
-- The deployment artifact contains a top-level `index.html`.
-- Local validation passes and the complete change set is captured in a session update.
-- Remaining GitHub Pages and DNS configuration is documented for the repository owner.
-
-### Status
-
-In progress; repository changes are complete and external configuration remains.
+The deployment workflow, custom domain, Hostinger DNS records, GitHub Pages
+certificate, and HTTPS enforcement were configured and validated successfully.
 
 ## Suggested Next Step
 
-Enable GitHub Pages with GitHub Actions as the source, set `breadpitt.net` as
-the custom domain, and update the domain's DNS records after this change reaches
-`main`.
+Define and publish the Bread Pitt starter story as the first complete content
+page, using the preserved starter history and representative photographs before
+moving on to the July 29 bake record.
