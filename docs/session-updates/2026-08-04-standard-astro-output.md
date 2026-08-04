@@ -35,4 +35,6 @@ Use Astro's standard generated-output model instead of committing generated HTML
 
 ## Publishing
 
-This session has not yet been merged into `main` or deployed.
+- Merged through pull request #1.
+- The GitHub Pages production workflow completed successfully.
+- Verified `https://breadpitt.net/recipes/` returns HTTP 200.
