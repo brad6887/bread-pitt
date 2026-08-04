@@ -11,7 +11,7 @@ workflow:
 
 validation:
   commands:
-    - pnpm run build
+    - corepack pnpm run build
     - git diff --check
 
 framework:
@@ -23,6 +23,7 @@ paths:
   journal: content/journal
 
 site:
-  source: site
+  source: .
   build:
-    method: static
+    method: npm
+    output: dist
