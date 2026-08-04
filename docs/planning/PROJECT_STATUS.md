@@ -1,6 +1,6 @@
 # Bread Pitt Project Status
 
-Last Updated: 2026-08-03
+Last Updated: 2026-08-04
 
 ## Project Snapshot
 
@@ -22,16 +22,16 @@ Track Bread Pitt's starter history, recipes, bakes, observations, and lessons le
   Actions.
 - The custom domain and alternate `www` hostname resolve through GitHub Pages,
   and HTTPS is enforced.
+- The website is an Astro static site with a shared layout, global Umami
+  analytics, a complete recipe index, and individual pages for all 13 recovered
+  recipes.
 
 ## Current Session
 
 ### Completed
 
-Launched Bread Pitt as an independent public website at
-`https://breadpitt.net`.
-
-The deployment workflow, custom domain, Hostinger DNS records, GitHub Pages
-certificate, and HTTPS enforcement were configured and validated successfully.
+Built the complete Astro recipe section from the recovered recipe master. The
+work is prepared for review and has not been published.
 
 ## Suggested Next Step
 

@@ -1,0 +1,58 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { recipes } from "../../data/recipes";
+
+export function getStaticPaths() {
+  return recipes.map((recipe) => ({ params: { slug: recipe.slug }, props: { recipe } }));
+}
+
+const { recipe } = Astro.props;
+---
+
+<BaseLayout title={recipe.title} description={`${recipe.title}: ingredients, method, notes, and success cues from Bread Pitt.`}>
+  <article class="recipe-page wrap">
+    <a class="back-link" href="/recipes/"><span aria-hidden="true">←</span> All recipes</a>
+    <header class="recipe-header">
+      <p class="eyebrow">{recipe.kind}</p>
+      <h1>{recipe.title}</h1>
+      {recipe.subtitle && <p class="recipe-subtitle">{recipe.subtitle}</p>}
+      <dl class="meta-list">
+        {recipe.meta.map((item) => <div><dt>{item.split(": ")[0]}</dt><dd>{item.split(": ").slice(1).join(": ")}</dd></div>)}
+      </dl>
+    </header>
+
+    <div class="recipe-body">
+      <aside class="ingredients" aria-label="Ingredients">
+        <h2>Ingredients</h2>
+        {recipe.ingredients.map((group) => (
+          <section>
+            {group.name && <h3>{group.name}</h3>}
+            <ul>
+              {group.items.map(([amount, ingredient]) => <li><span>{amount}</span><span>{ingredient}</span></li>)}
+            </ul>
+          </section>
+        ))}
+      </aside>
+
+      <div class="method">
+        <h2>Method</h2>
+        <ol>
+          {recipe.method.map((step) => <li>{step}</li>)}
+        </ol>
+        {recipe.extraSections?.map((section) => (
+          <section class="recipe-notes">
+            <h2>{section.title}</h2>
+            <ul>{section.items.map((item) => <li>{item}</li>)}</ul>
+          </section>
+        ))}
+        {recipe.success && (
+          <section class="success">
+            <p class="eyebrow">The final frame</p>
+            <h2>What success looks like</h2>
+            <ul>{recipe.success.map((item) => <li>{item}</li>)}</ul>
+          </section>
+        )}
+      </div>
+    </div>
+  </article>
+</BaseLayout>

@@ -9,6 +9,11 @@ workflow:
   journal:
     policy: event-driven
 
+validation:
+  commands:
+    - pnpm run build
+    - git diff --check
+
 framework:
   name: Abbey
   schema_version: 1
@@ -16,3 +21,8 @@ paths:
   planning: docs/planning
   session_updates: docs/session-updates
   journal: content/journal
+
+site:
+  source: site
+  build:
+    method: static
