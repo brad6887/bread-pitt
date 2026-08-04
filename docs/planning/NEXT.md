@@ -1,37 +1,34 @@
 # Bread Pitt Next
 
-Last Reviewed: 2026-07-29
+Last Reviewed: 2026-08-03
 
 ## Current Theme
 
-Starter Record Foundation
+Independent Website Rollout
 
 ## Primary Objective
 
-Define and validate a canonical starter-cycle record format using Brad Pitt's
-existing feeding and observation history.
+Complete the GitHub Pages and domain configuration needed to publish Bread Pitt
+independently at `https://breadpitt.net`.
 
 ## Definition of Done
 
-- A canonical starter profile exists.
-- Each feeding cycle uses one record containing the feed and its later observations.
-- Exact, approximate, inferred, and unknown information are distinguished.
-- The format supports stable references to starter photographs.
-- The July 27 and July 28 feeding cycles validate the format with real history.
-- The structure can support future website timelines and starter analysis.
-- The old split feeding-log and observation directories are removed.
-- The complete change set passes validation and is captured in a session update.
+- GitHub Pages uses GitHub Actions as its publishing source.
+- The Pages workflow deploys the standalone site from `main`.
+- `breadpitt.net` is saved as the repository's custom domain.
+- Required apex and optional `www` DNS records point to GitHub Pages.
+- HTTPS is enforced after certificate provisioning.
+- The public site loads successfully at `https://breadpitt.net`.
 
 ## Tasks
 
-- [x] Review the existing project structure and starter history.
-- [x] Define one feeding cycle as the canonical record boundary.
-- [x] Document the starter content model.
-- [x] Create the Brad Pitt starter profile.
-- [x] Record the July 27 feeding cycle.
-- [x] Record the July 28 feeding cycle.
-- [x] Validate the starter records.
-- [x] Capture the session.
+- [ ] Review and merge the independent-site change set to `main`.
+- [ ] Enable GitHub Pages with GitHub Actions as the publishing source.
+- [ ] Confirm the Pages workflow deploys successfully.
+- [ ] Set `breadpitt.net` as the custom domain.
+- [ ] Configure and verify the required DNS records.
+- [ ] Enable HTTPS after certificate provisioning.
+- [ ] Verify the public site and capture session completion.
 
 ## Following Session
 

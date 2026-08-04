@@ -1,6 +1,6 @@
 # Bread Pitt Project Status
 
-Last Updated: 2026-07-29
+Last Updated: 2026-08-03
 
 ## Project Snapshot
 
@@ -17,30 +17,31 @@ Track Bread Pitt's starter history, recipes, bakes, observations, and lessons le
 - Canonical starter profiles and feeding-cycle records now exist. Each
   feeding-cycle record keeps feed details, observations, outcomes, assessments,
   and media references together as one source of truth.
+- A standalone static site and GitHub Pages Actions workflow now provide an
+  independent publishing foundation with no Abbey Root runtime dependency.
 
 ## Current Session
 
 ### Objective
 
-Define and validate a canonical starter-cycle record format using Brad Pitt's
-existing feeding and observation history.
+Establish Bread Pitt as an independently built and deployed GitHub Pages site,
+ready to serve at `breadpitt.net`.
 
 ### Definition of Done
 
-- A canonical starter profile exists.
-- Each feeding cycle uses one record containing the feed and its later observations.
-- Exact, approximate, inferred, and unknown information are distinguished.
-- The format supports stable references to starter photographs.
-- The July 27 and July 28 feeding cycles validate the format with real history.
-- The structure can support future website timelines and starter analysis.
-- The old split feeding-log and observation directories are removed.
-- The complete change set passes validation and is captured in a session update.
+- The repository contains a standalone static site with no Abbey Root runtime dependency.
+- Pull requests validate the site entry point without deploying it.
+- Changes to the site on `main` publish through GitHub's supported Pages Actions flow.
+- The deployment artifact contains a top-level `index.html`.
+- Local validation passes and the complete change set is captured in a session update.
+- Remaining GitHub Pages and DNS configuration is documented for the repository owner.
 
 ### Status
 
-Complete.
+In progress; repository changes are complete and external configuration remains.
 
 ## Suggested Next Step
 
-Define and validate the first complete bake record using the July 29
-50/50 White and Whole Wheat sourdough bake.
+Enable GitHub Pages with GitHub Actions as the source, set `breadpitt.net` as
+the custom domain, and update the domain's DNS records after this change reaches
+`main`.
