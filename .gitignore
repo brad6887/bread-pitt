@@ -4,3 +4,8 @@ working/session-context/*
 
 # Local Abbey configuration
 .abbey/config.conf
+
+# Generated Abbey runtime state
+.abbey/ai/
+.abbey/context/
+.abbey/knowledge/
