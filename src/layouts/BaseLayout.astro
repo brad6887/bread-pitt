@@ -36,7 +36,7 @@ const pageTitle = title === "Bread Pitt" ? title : `${title} · Bread Pitt`;
       <nav aria-label="Main navigation">
         <a href="/recipes/" aria-current={Astro.url.pathname.startsWith("/recipes") ? "page" : undefined}>Recipes</a>
         <span class="coming-soon" title="Coming soon">Bakes</span>
-        <span class="coming-soon" title="Coming soon">Starter</span>
+        <a href="/starter/" aria-current={Astro.url.pathname.startsWith("/starter") ? "page" : undefined}>Starter</a>
       </nav>
     </header>
     <main id="content">
