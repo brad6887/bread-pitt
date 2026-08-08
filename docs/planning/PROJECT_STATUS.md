@@ -1,6 +1,6 @@
 # Bread Pitt Project Status
 
-Last Updated: 2026-08-04
+Last Updated: 2026-08-08
 
 ## Project Snapshot
 
@@ -25,16 +25,22 @@ Track Bread Pitt's starter history, recipes, bakes, observations, and lessons le
 - The website is an Astro static site with a shared layout, global Umami
   analytics, a complete recipe index, and individual pages for all 13 recovered
   recipes.
+- The starter story is published with optimized public images and is linked
+  from the site navigation.
+- Project-owned Abbey configuration validates the Astro output and requires the
+  `/`, `/recipes/`, and `/starter/` routes while media manifests fail closed
+  until a deterministic publication workflow is configured.
 
 ## Current Session
 
 ### Completed
 
-Built the complete Astro recipe section from the recovered recipe master. The
-work is prepared for review and has not been published.
+Adopted Abbey's project-aware site validation contract for the current Astro
+artifact without changing Bread Pitt's GitHub Pages deployment model. Toolkit
+defaults remain disabled, the main generated routes are required, and no
+placeholder media provenance or Abbey deployment target was introduced.
 
 ## Suggested Next Step
 
-Define and publish the Bread Pitt starter story as the first complete content
-page, using the preserved starter history and representative photographs before
-moving on to the July 29 bake record.
+Add structured starter timeline records to the site, then define and validate
+the first complete bake record using the July 29 sourdough bake.

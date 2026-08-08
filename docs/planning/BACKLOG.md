@@ -1,7 +1,7 @@
 # Bread Pitt Backlog
 
 <!-- BEGIN GENERATED BACKLOG STATUS -->
-> **Backlog Status:** 5 complete · 3 pending · 8 total
+> **Backlog Status:** 7 complete · 3 pending · 10 total
 <!-- END GENERATED BACKLOG STATUS -->
 
 ## Independent Website
@@ -14,8 +14,13 @@
 
 ## Site Content
 
-- [ ] Continue defining the Bread Pitt site structure and publish the initial
-      starter-story content.
+- [x] Publish the initial Bread Pitt starter story and connect it to the site.
+
+## Abbey Portability
+
+- [x] Adopt project-owned Astro site and required-route validation.
+- [ ] Configure the first media preparation and publication workflow when real
+      starter photographs are ready for manifest-backed publication.
 
 ## Starter Records
 

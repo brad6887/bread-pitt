@@ -27,3 +27,10 @@ site:
   build:
     method: npm
     output: dist
+  validation:
+    public_root: public
+    media_manifests: []
+    required_routes:
+      - /
+      - /recipes/
+      - /starter/
