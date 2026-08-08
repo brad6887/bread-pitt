@@ -1,0 +1,50 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = "Bread Pitt",
+  description = "Bread Pitt tracks a sourdough starter, recipes, bakes, observations, and lessons learned.",
+} = Astro.props;
+const pageTitle = title === "Bread Pitt" ? title : `${title} · Bread Pitt`;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content={description} />
+    <meta name="theme-color" content="#f4ecdc" />
+    <title>{pageTitle}</title>
+    <script
+      is:inline
+      defer
+      src="https://analytics.bradcooke.com/script.js"
+      data-website-id="610135aa-984a-4869-8f1e-536778ed5861"
+      data-domains="breadpitt.net,www.breadpitt.net"
+    ></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#content">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="/" aria-label="Bread Pitt home">Bread Pitt</a>
+      <nav aria-label="Main navigation">
+        <a href="/recipes/" aria-current={Astro.url.pathname.startsWith("/recipes") ? "page" : undefined}>Recipes</a>
+        <span class="coming-soon" title="Coming soon">Bakes</span>
+        <a href="/starter/" aria-current={Astro.url.pathname.startsWith("/starter") ? "page" : undefined}>Starter</a>
+      </nav>
+    </header>
+    <main id="content">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <p>Made with flour, patience, and a starter named Bread Pitt.</p>
+      <a href="/recipes/">Browse all recipes</a>
+    </footer>
+  </body>
+</html>

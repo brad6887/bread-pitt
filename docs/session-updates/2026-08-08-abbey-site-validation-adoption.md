@@ -17,12 +17,12 @@ tags:
 ## Objective
 
 Adopt the project-aware Abbey site-validation contract without coupling Bread
-Pitt's independent static site or GitHub Pages deployment to Abbey Root.
+Pitt's Astro site or GitHub Pages deployment to Abbey Root.
 
 ## Definition of Done
 
-- Bread Pitt explicitly declares its static site source and build method.
-- The root route is required and validated from the generated site artifact.
+- Bread Pitt explicitly declares its Astro source and npm build artifact.
+- The main routes are required and validated from the generated site artifact.
 - Media configuration is project-owned and contains no borrowed toolkit roles
   or workflows.
 - Site build and standalone validation pass from the Bread Pitt repository.
@@ -32,14 +32,14 @@ Pitt's independent static site or GitHub Pages deployment to Abbey Root.
 
 Added the smallest safe Abbey adoption for Bread Pitt's current publishing
 state. The project now owns its site and media configuration, validates the
-existing `/` route, and intentionally declares no publication manifests until
-real media derivatives are generated.
+Astro output and primary routes, and intentionally declares no publication
+manifests until current public derivatives have deterministic provenance.
 
 ## Accomplishments
 
-- Added explicit `site.source: site` and a direct `static` build method.
-- Added `site.validation.public_root: site`.
-- Added `/` as the first required generated route.
+- Retained the current `site.source: .`, npm build method, and `dist` output.
+- Added `site.validation.public_root: public`.
+- Added `/`, `/recipes/`, and `/starter/` as required generated routes.
 - Added project-owned `.abbey/media.yml` with empty rename and publication
   workflow maps.
 - Confirmed toolkit defaults remain disabled.
@@ -57,8 +57,8 @@ are available.
 
 - `abbey project show`: passed; Bread Pitt resolved as the active project and
   toolkit defaults were disabled.
-- `abbey site build`: passed for the direct static artifact.
-- `abbey site validate`: passed with zero manifests and the required `/` route.
+- `abbey site build`: passed for the Astro artifact.
+- `abbey site validate`: passed with zero manifests and three required routes.
 - `git diff --check`: passed.
 
 ## Lessons Learned
@@ -73,7 +73,7 @@ are available.
 - Add a named media preparation and publication workflow only when the first
   real Bread Pitt image batch is ready.
 - Add the resulting deterministic manifest to `site.validation.media_manifests`.
-- Continue the existing GitHub Pages and domain rollout independently.
+- Keep GitHub Pages deployment independent from Abbey's validation command.
 
 ## Notes
 

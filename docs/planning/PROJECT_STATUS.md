@@ -13,38 +13,34 @@ Track Bread Pitt's starter history, recipes, bakes, observations, and lessons le
 - The recovered recipe master is retained at
   `sources/Bread_Pitt_Recovered_Recipe_Master_v2.docx` as the initial source
   document while individual canonical recipe records are developed.
-
-- Canonical starter profiles and feeding-cycle records now exist. Each
-  feeding-cycle record keeps feed details, observations, outcomes, assessments,
-  and media references together as one source of truth.
-- A standalone static site and GitHub Pages Actions workflow now provide an
-  independent publishing foundation with no Abbey Root runtime dependency.
-- Project-owned Abbey configuration now identifies the direct static site,
-  requires the `/` route, and provides empty media workflow maps that fail
-  closed until real Bread Pitt media publication is configured.
+- Canonical starter profiles and feeding-cycle records exist. Each feeding-cycle
+  record keeps feed details, observations, outcomes, assessments, and media
+  references together as one source of truth.
+- Bread Pitt is publicly available at `https://breadpitt.net` through GitHub
+  Pages.
+- Changes to the standalone static site on `main` are deployed through GitHub
+  Actions.
+- The custom domain and alternate `www` hostname resolve through GitHub Pages,
+  and HTTPS is enforced.
+- The website is an Astro static site with a shared layout, global Umami
+  analytics, a complete recipe index, and individual pages for all 13 recovered
+  recipes.
+- The starter story is published with optimized public images and is linked
+  from the site navigation.
+- Project-owned Abbey configuration validates the Astro output and requires the
+  `/`, `/recipes/`, and `/starter/` routes while media manifests fail closed
+  until a deterministic publication workflow is configured.
 
 ## Current Session
 
-### Objective
+### Completed
 
-Adopt Abbey's project-aware site validation contract while preserving Bread
-Pitt's independent static site and GitHub Pages deployment workflow.
-
-### Definition of Done
-
-- Bread Pitt owns explicit static-site and media configuration.
-- Toolkit defaults remain disabled.
-- The root route is required by project configuration.
-- `abbey site build` and `abbey site validate` pass from Bread Pitt.
-- No deployment target or placeholder media provenance is introduced.
-
-### Status
-
-Complete; Bread Pitt now validates its current site artifact through project-owned
-configuration without changing its independent deployment model.
+Adopted Abbey's project-aware site validation contract for the current Astro
+artifact without changing Bread Pitt's GitHub Pages deployment model. Toolkit
+defaults remain disabled, the main generated routes are required, and no
+placeholder media provenance or Abbey deployment target was introduced.
 
 ## Suggested Next Step
 
-Enable GitHub Pages with GitHub Actions as the source, set `breadpitt.net` as
-the custom domain, and update the domain's DNS records after this change reaches
-`main`.
+Add structured starter timeline records to the site, then define and validate
+the first complete bake record using the July 29 sourdough bake.

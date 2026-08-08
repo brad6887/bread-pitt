@@ -1,0 +1,29 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { recipes } from "../../data/recipes";
+---
+
+<BaseLayout title="Recipes" description="The complete Bread Pitt recipe collection: sourdough loaves, pizza, pitas, rolls, cookies, pancakes, and more.">
+  <section class="page-intro wrap">
+    <p class="eyebrow">The collected works</p>
+    <h1>Recipes</h1>
+    <p>Thirteen recovered recipes, reconciled into clean working versions. No ten-page backstory between you and the flour.</p>
+  </section>
+
+  <section class="recipe-index wrap" aria-label="Recipe collection">
+    {recipes.map((recipe, index) => (
+      <article class="recipe-card">
+        <a href={`/recipes/${recipe.slug}/`} aria-label={`Open ${recipe.title}`}>
+          <span class="card-number">{String(index + 1).padStart(2, "0")}</span>
+          <div>
+            <p class="card-kind">{recipe.kind}</p>
+            <h2>{recipe.title}</h2>
+            {recipe.subtitle && <p class="card-subtitle">{recipe.subtitle}</p>}
+            <p class="card-meta">{recipe.meta[0]}</p>
+          </div>
+          <span class="card-arrow" aria-hidden="true">↗</span>
+        </a>
+      </article>
+    ))}
+  </section>
+</BaseLayout>
