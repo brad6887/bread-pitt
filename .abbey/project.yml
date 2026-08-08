@@ -16,3 +16,13 @@ paths:
   planning: docs/planning
   session_updates: docs/session-updates
   journal: content/journal
+
+site:
+  source: site
+  build:
+    method: static
+  validation:
+    public_root: site
+    media_manifests: []
+    required_routes:
+      - /

@@ -1,7 +1,7 @@
 # Bread Pitt Backlog
 
 <!-- BEGIN GENERATED BACKLOG STATUS -->
-> **Backlog Status:** 0 complete · 7 pending · 7 total
+> **Backlog Status:** 1 complete · 8 pending · 9 total
 <!-- END GENERATED BACKLOG STATUS -->
 
 ## Independent Website
@@ -11,6 +11,12 @@
 - [ ] Configure the apex and optional `www` DNS records for GitHub Pages.
 - [ ] Enable HTTPS after GitHub provisions the domain certificate.
 - [ ] Verify the Pages deployment and public site at `https://breadpitt.net`.
+
+## Abbey Portability
+
+- [x] Adopt project-owned static-site and required-route validation.
+- [ ] Configure the first media preparation and publication workflow when real
+  starter photographs are available.
 
 ## Starter Records
 
