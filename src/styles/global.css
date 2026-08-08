@@ -91,6 +91,103 @@ nav a:hover, nav a[aria-current="page"] { border-color: var(--rust); color: var(
 .recipe-notes li::before, .success li::before { content: "—"; position: absolute; left: 0; color: var(--rust); }
 .success { margin-top: 4rem; padding: 2.5rem; background: var(--ink); color: var(--paper-light); }
 .success .eyebrow { color: #d59369; }
+
+.story-page {
+  padding: clamp(3rem, 8vw, 6rem) 0 7rem;
+  max-width: 900px;
+}
+
+.story-header {
+  padding-bottom: clamp(3rem, 7vw, 5rem);
+  border-bottom: 1px solid var(--line);
+}
+
+.story-header h1 {
+  margin: 0;
+  font-size: clamp(3.5rem, 9vw, 7rem);
+  font-weight: 500;
+  letter-spacing: -.06em;
+  line-height: .95;
+}
+
+.story-intro {
+  max-width: 42rem;
+  margin: 2rem 0 0;
+  font-size: clamp(1.25rem, 3vw, 1.8rem);
+  line-height: 1.45;
+}
+
+.story-section {
+  margin: clamp(3rem, 7vw, 5rem) 0;
+}
+
+.story-section h2 {
+  margin: 0 0 1.5rem;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 500;
+  letter-spacing: -.04em;
+  line-height: 1.05;
+}
+
+.story-section p {
+  max-width: 48rem;
+}
+
+.story-section ul {
+  padding-left: 1.5rem;
+  max-width: 48rem;
+}
+
+.story-image {
+  margin: clamp(2.5rem, 6vw, 5rem) auto;
+  max-width: 450px;
+}
+
+.story-image-feature {
+  max-width: 720px;
+}
+
+.story-image-grid.montage {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 900px;
+}
+
+.story-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.loaf-feature {
+  max-width: 700px;
+}
+
+.story-image figcaption {
+  margin-top: .75rem;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: .8rem;
+}
+
+.story-image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin: clamp(2.5rem, 6vw, 5rem) auto;
+  max-width: 900px;
+}
+
+.story-image-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.story-image-grid.montage {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 900px;
+}
+
 .site-footer { min-height: 150px; padding: 3rem max(1.5rem, calc((100vw - 1180px) / 2)); display: flex; justify-content: space-between; gap: 2rem; border-top: 1px solid var(--line); color: var(--muted); font-family: var(--sans); font-size: .78rem; }
 .site-footer p { margin: 0; }
 .site-footer a { color: var(--rust); font-weight: 700; }
