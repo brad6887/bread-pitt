@@ -28,20 +28,23 @@ The pre-Bake002 workflow is ready when:
 
 ## Current Priorities
 
-### Current Phase — Canonical Bake Contract
+### Completed Foundation
 
 - Inventory Bake001's canonical, generated, and duplicated artifacts.
 - Assign authoritative ownership for metadata, narrative, photos, hero
   selection, recipe relationships, manifests, derivatives, and routes.
 - Record the model and its validation boundaries.
-- Use the model as the input contract for intake generation and shared Astro
-  rendering.
+- Generate `media-intake.json` deterministically from `photos.yml` and the
+  Abbey rename manifest.
+- Validate intake freshness during the standard project workflow.
 
-### Following Phase — Generated Intake
+### Current Phase — Canonical Bake Renderer
 
-- Generate `media-intake.json` from `photos.yml` and the Abbey rename manifest.
-- Make generation deterministic, atomic, and freshness-checkable.
-- Preserve compatibility with the existing `abbey media publish` workflow.
+- Build one shared loader for bake metadata, narrative, photo metadata,
+  recipes, and publication provenance.
+- Render Bake001 through shared Astro code without copying narrative content.
+- Derive the bake index and recipe backlink from canonical bake records.
+- Preserve Bake001's current route and visual presentation.
 
 ## Future Direction
 

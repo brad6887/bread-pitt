@@ -2,7 +2,7 @@ cat > docs/planning/BACKLOG.md <<'EOF'
 # Bread Pitt Backlog
 
 <!-- BEGIN GENERATED BACKLOG STATUS -->
-> **Backlog Status:** 10 complete · 6 pending · 16 total
+> **Backlog Status:** 11 complete · 5 pending · 16 total
 <!-- END GENERATED BACKLOG STATUS -->
 
 ## Independent Website
@@ -27,7 +27,7 @@ cat > docs/planning/BACKLOG.md <<'EOF'
 
 ## Bake Publishing Workflow
 
-- [ ] Generate `media-intake.json` automatically from the editorial selections
+- [x] Generate `media-intake.json` automatically from the editorial selections
       in `photos.yml` and the Abbey rename manifest.
 - [ ] Add reusable scaffolding for a new bake record, including `bake.yml`,
       `photos.yml`, `story.md`, media directories, and publication paths.

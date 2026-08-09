@@ -30,17 +30,20 @@ Track Bread Pitt's starter history, recipes, bakes, observations, and lessons le
 - Project-owned Abbey configuration validates the Astro output and requires the
   `/`, `/recipes/`, and `/starter/` routes while media manifests fail closed
   until a deterministic publication workflow is configured.
+- Bake media intake manifests are generated deterministically from canonical
+  `photos.yml` selection and Abbey rename provenance; project validation
+  detects stale intake before building the site.
 
 ## Current Session
 
 ### Completed
 
-Adopted Abbey's project-aware site validation contract for the current Astro
-artifact without changing Bread Pitt's GitHub Pages deployment model. Toolkit
-defaults remain disabled, the main generated routes are required, and no
-placeholder media provenance or Abbey deployment target was introduced.
+Defined the canonical Bake Model and replaced manual Bake001 intake maintenance
+with deterministic, freshness-checkable generation from `photos.yml` and the
+Abbey rename manifest. The existing media publication contract and all 24
+validated Bake001 derivatives remain unchanged.
 
 ## Suggested Next Step
 
-Add structured starter timeline records to the site, then define and validate
-the first complete bake record using the July 29 sourdough bake.
+Render Bake001 from canonical bake content through shared Astro code, then use
+the same renderer as the page foundation for Bake002.

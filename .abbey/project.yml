@@ -11,6 +11,7 @@ workflow:
 
 validation:
   commands:
+    - corepack pnpm run bake:intake check content/bakes/2026/bake001
     - corepack pnpm run build
     - git diff --check
 
