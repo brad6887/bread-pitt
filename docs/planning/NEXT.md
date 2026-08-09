@@ -1,40 +1,55 @@
 # Bread Pitt Next
 
-Last Reviewed: 2026-08-04
+Last Reviewed: 2026-08-08
 
 ## Current Theme
 
-Bread Pitt Starter Story
+Bake002 Publishing Readiness
 
 ## Primary Objective
 
-Define and publish the story of Bread Pitt 2.0 as the first complete content
-page on the independent Bread Pitt website.
+Remove the duplicated authoring and preventable manual work discovered while
+publishing Bake001 before creating Bake002.
 
-## Definition of Done
+## Success Criteria
 
-- The story explains what happened to Bread Pitt 1.0 during the move.
-- The beginning and early difficulties of Bread Pitt 2.0 are documented.
-- Important feeding changes and signs of improvement are included.
-- Representative starter photographs are selected and incorporated.
-- The story reaches the point where Bread Pitt was ready for the July 29 bake.
-- The page fits the developing Bread Pitt site structure.
-- The story is linked from the appropriate site navigation or landing page.
-- Local site validation passes.
-- The published page is verified at `https://breadpitt.net`.
-- The completed work is captured in a session update.
+The pre-Bake002 workflow is ready when:
 
-## Tasks
+- Every bake fact and relationship has one documented authoritative source.
+- `photos.yml` and the Abbey rename manifest generate `media-intake.json`
+  deterministically.
+- `bake.yml` and `story.md` render bake pages through shared Astro code.
+- One Bread Pitt command validates the complete bake model.
+- A safe scaffold creates the canonical starting workspace for Bake002.
+- `abbey site restart` reliably restarts the active project's development
+  server.
+- Bake001 remains buildable and visually correct after migration.
+- The proven workflow is captured in a Bread Pitt runbook.
 
-- [ ] Gather the starter timeline, observations, and photographs.
-- [ ] Define the starter-story page structure.
-- [ ] Write the Bread Pitt 2.0 story.
-- [ ] Add the page to the standalone site.
-- [ ] Connect the story to the site navigation or landing page.
-- [ ] Validate locally and through GitHub Pages.
-- [ ] Capture and review the completed session.
+## Current Priorities
 
-## Following Session
+### Current Phase — Canonical Bake Contract
 
-Define and validate the first complete bake record using the July 29 50/50 White
-and Whole Wheat sourdough bake.
+- Inventory Bake001's canonical, generated, and duplicated artifacts.
+- Assign authoritative ownership for metadata, narrative, photos, hero
+  selection, recipe relationships, manifests, derivatives, and routes.
+- Record the model and its validation boundaries.
+- Use the model as the input contract for intake generation and shared Astro
+  rendering.
+
+### Following Phase — Generated Intake
+
+- Generate `media-intake.json` from `photos.yml` and the Abbey rename manifest.
+- Make generation deterministic, atomic, and freshness-checkable.
+- Preserve compatibility with the existing `abbey media publish` workflow.
+
+## Future Direction
+
+After Bake002 is published, compare two complete publishing cycles before
+promoting bake-specific behavior into generic Abbey content commands or
+one-command publication orchestration.
+
+## Guiding Principle
+
+Keep one readable canonical source for every authored fact, generate derived
+artifacts deterministically, and generalize only from repeated real use.

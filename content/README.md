@@ -10,5 +10,8 @@ This directory contains the canonical, human-maintained content for Bread Pitt.
 - `research/` — ingredient, fermentation, equipment, and process notes
 - `publishing/` — content prepared specifically for website or other publication
 
+The canonical bake workspace and its generated-publication boundaries are
+defined in [`../docs/reference/BAKE_MODEL.md`](../docs/reference/BAKE_MODEL.md).
+
 Source documents used to recover or reconcile content belong in `../sources/`.
 Photographs and other media belong in `../media/`.
