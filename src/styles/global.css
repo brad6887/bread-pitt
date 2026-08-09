@@ -65,12 +65,55 @@ nav a:hover, nav a[aria-current="page"] { border-color: var(--rust); color: var(
 .card-kind { margin-bottom: .35rem; }
 .card-subtitle { margin: .25rem 0 0; color: var(--rust); font-style: italic; }
 .card-meta { margin: .65rem 0 0; }
+.recipe-card-image {
+  display: block;
+  width: min(100%, 720px);
+  height: clamp(220px, 35vw, 420px);
+  margin-top: 1.5rem;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  object-position: center 58%;
+}
 .card-arrow { font-family: var(--sans); font-size: 1.4rem; color: var(--rust); }
 .recipe-page { padding: 3rem 0 7rem; }
 .back-link { display: inline-block; margin-bottom: clamp(3rem, 8vw, 6rem); }
 .recipe-header { padding-bottom: clamp(3rem, 7vw, 5rem); border-bottom: 1px solid var(--line); }
 .recipe-header h1 { max-width: 1050px; font-size: clamp(3.5rem, 9vw, 7.5rem); }
 .recipe-subtitle { margin: 1rem 0 0; color: var(--rust); font-size: clamp(1.3rem, 3vw, 2rem); font-style: italic; }
+.featured-bake {
+  padding: clamp(3rem, 7vw, 5rem) 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.featured-bake-link {
+  display: grid;
+  grid-template-columns: minmax(280px, 1fr) minmax(260px, .8fr);
+  gap: clamp(2rem, 6vw, 5rem);
+  align-items: center;
+  text-decoration: none;
+}
+
+.featured-bake-link img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.featured-bake-link h2 {
+  margin: 0 0 1rem;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  font-weight: 500;
+  letter-spacing: -.04em;
+  line-height: 1.05;
+}
+
+.featured-bake-link p {
+  max-width: 32rem;
+}
+
+.featured-bake-link:hover h2 {
+  color: var(--rust);
+}
 .meta-list { margin: 3rem 0 0; display: flex; flex-wrap: wrap; gap: 1rem 3rem; font-family: var(--sans); }
 .meta-list div { min-width: 10rem; }
 .meta-list dt { color: var(--muted); font-size: .68rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
@@ -205,6 +248,9 @@ nav a:hover, nav a[aria-current="page"] { border-color: var(--rust); color: var(
   .ingredients { position: static; }
   .meta-list { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
   .success { padding: 1.5rem; }
+  .featured-bake-link {
+  grid-template-columns: 1fr;
+}
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -8,6 +8,23 @@ export interface Recipe {
   method: string[];
   extraSections?: Array<{ title: string; items: string[] }>;
   success?: string[];
+  indexImage?: {
+    src: string;
+    alt: string;
+  };
+  featuredBake?: {
+    title: string;
+    path: string;
+    image: string;
+    alt: string;
+    description: string;
+  };
+}
+
+export function getRecipeIndexImage(recipe: Recipe) {
+  return recipe.indexImage ?? (recipe.featuredBake
+    ? { src: recipe.featuredBake.image, alt: recipe.featuredBake.alt }
+    : undefined);
 }
 
 export const recipes: Recipe[] = [
@@ -97,6 +114,13 @@ export const recipes: Recipe[] = [
     slug: "fifty-fifty-white-whole-wheat-sourdough",
     title: "50/50 White & Whole Wheat Sourdough",
     kind: "Sourdough · Whole wheat",
+    featuredBake: {
+      title: "Bread Pitt's First Big Role",
+      path: "/bakes/bake001-first-big-role/",
+      image: "/images/bakes/2026/bake001/bake001-final-2026-07-30.jpg",
+      alt: "Finished 50/50 white and whole-wheat sourdough loaf from Bake001",
+      description: "The first loaf made with Bread Pitt 2.0. Eight out of ten thumbs up.",
+    },
     meta: ["Yield: 2 loaves", "Internal temperature: 205–210°F"],
     ingredients: [{ items: [["500 g", "Bread flour"], ["500 g", "King Arthur 100% Whole Wheat Flour"], ["720 g", "Water"], ["200 g", "Active sourdough starter (100% hydration)"], ["20 g", "Salt"]] }],
     method: ["Combine both flours and water until no dry spots remain. Autolyse 45–60 minutes.", "Add starter and salt; mix until fully incorporated.", "Bulk ferment 10–12 hours at about 70–75°F, ending when visibly aerated, slightly domed, and risen about 50–75%. Perform 3–4 stretch-and-fold rounds about every 30 minutes during the first 2 hours.", "Divide into 2 equal portions and pre-shape. Rest 20–30 minutes.", "Final-shape and place in floured bannetons.", "Proof 1–2 hours at room temperature or refrigerate 8–16 hours. Bake cold-proofed loaves directly from the refrigerator.", "Preheat Dutch oven to 475°F. If baking sequentially, keep the second loaf refrigerated while the first bakes.", "Bake 20 minutes covered, then 20–25 minutes uncovered, until deep golden and 205–210°F internally.", "Cool at least 2 hours before slicing."],

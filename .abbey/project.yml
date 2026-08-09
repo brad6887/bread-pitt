@@ -29,8 +29,11 @@ site:
     output: dist
   validation:
     public_root: public
-    media_manifests: []
+    media_manifests:
+      - content/bakes/2026/bake001/media-publication.json      
     required_routes:
       - /
       - /recipes/
       - /starter/
+      - /bakes/
+      - /bakes/bake001-first-big-role/

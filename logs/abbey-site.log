@@ -1,0 +1,35 @@
+
+> bread-pitt@1.0.0 dev
+> astro dev --host 0.0.0.0
+
+17:53:20 [types] Generated 0ms
+17:53:20 [content] Syncing content
+17:53:20 [content] Synced content
+17:53:20 [vite] Re-optimizing dependencies because vite config has changed
+
+ astro  v5.18.2 ready in 134 ms
+
+┃ Local    http://localhost:4321/
+┃ Network  http://192.168.1.86:4321/
+           http://172.17.0.1:4321/
+           http://172.20.0.1:4321/
+           http://172.19.0.1:4321/
+           http://172.18.0.1:4321/
+           http://172.21.0.1:4321/
+           http://172.24.0.1:4321/
+           http://100.80.32.82:4321/
+
+17:53:20 watching for file changes...
+17:53:54 [200] /bakes/bake001-first-big-role/ 19ms
+17:57:40 [200] /recipes/ 5ms
+17:57:45 [200] /recipes/fifty-fifty-white-whole-wheat-sourdough/ 5ms
+17:57:55 [200] /recipes/fifty-fifty-white-whole-wheat-sourdough/ 3ms
+18:14:39 [200] /recipes/fifty-fifty-white-whole-wheat-sourdough/ 4ms
+18:17:08 [watch] /src/styles/global.css
+18:17:26 [200] /recipes/ 25ms
+18:18:17 [200] /recipes/ 3ms
+18:18:33 [200] HEAD /recipes/ 3ms
+18:18:46 [200] /recipes/ 2ms
+18:19:07 [200] /recipes/ 2ms
+18:19:47 [200] /recipes/ 3ms
+18:21:50 [200] /recipes/ 2ms

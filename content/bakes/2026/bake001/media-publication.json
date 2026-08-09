@@ -1,0 +1,810 @@
+{
+  "configuration": ".abbey/media.yml",
+  "configuration_source": "active project",
+  "destination": "public/images/bakes/2026/bake001",
+  "intake_manifest": "content/bakes/2026/bake001/media-intake.json",
+  "items": [
+    {
+      "caption": "Bread Pitt at the start of Bake001.",
+      "capture_date": "2026-07-29",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-starter-at-start-2026-07-29.jpg",
+        "sha256": "4c6704d752b011065686cb12ea5acf05be3c2c0b918b57bd84e265a187ff3c46",
+        "width": 1500
+      },
+      "original_image": "IMG_9806.JPG",
+      "prepared_image": "bake001-starter-at-start-2026-07-29.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-starter-at-start-2026-07-29.jpg",
+        "sha256": "6ee2c6be5b16383b5e27dbcc83dac4910aab4150ce41bea05eb9a08bcedbab82"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Dough Cloony reporting for duty.",
+      "capture_date": "2026-07-29",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-mixer-dough-cloony-2026-07-29.jpg",
+        "sha256": "f65ac32b3d6f1839e37a8359d1d5ac0237270cd232fe6ed35a610759a4312944",
+        "width": 1500
+      },
+      "original_image": "IMG_9807.JPG",
+      "prepared_image": "bake001-mixer-dough-cloony-2026-07-29.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-mixer-dough-cloony-2026-07-29.jpg",
+        "sha256": "28591be38c91d3cf868269c5e1b5a995ba286795468e49c660dcaea78cf1809a"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Bread flour and whole wheat flour for the 50/50 loaf.",
+      "capture_date": "2026-07-29",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-ingredients-flour-2026-07-29.jpg",
+        "sha256": "a3e6b36951a3e85f42c2419d96931f984c074960088a7f1ead9e37072d125f55",
+        "width": 1500
+      },
+      "original_image": "IMG_9809.JPG",
+      "prepared_image": "bake001-ingredients-flour-2026-07-29.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-ingredients-flour-2026-07-29.jpg",
+        "sha256": "fcd785eaa1694593b5e24fa9291bdd86b14d5a1c07afd9fce4461b9a87373ecf"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Flour and water at the start of the autolyse.",
+      "capture_date": "2026-07-29",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-autolyze-2026-07-29.jpg",
+        "sha256": "d6f39853a06817a237e94a32b41e42b7273193f41b1f690963119c4e7c15ac6a",
+        "width": 1500
+      },
+      "original_image": "IMG_9811.JPG",
+      "prepared_image": "bake001-autolyze-2026-07-29.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-autolyze-2026-07-29.jpg",
+        "sha256": "bed980c6fd6af1ebb8b16c2eb688923d4f5013fe4de74ada111fa05405974fe1"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Bread Pitt just before mixing.",
+      "capture_date": "2026-07-29",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-starter-just-before-mix-2026-07-29.jpg",
+        "sha256": "1d0428e8b06f1837adce422d66b9f8825dacefe12206decab30b9618e434b0f4",
+        "width": 1500
+      },
+      "original_image": "IMG_9813.JPG",
+      "prepared_image": "bake001-starter-just-before-mix-2026-07-29.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-starter-just-before-mix-2026-07-29.jpg",
+        "sha256": "6aeee400ffddd623dbac2809e0a7ee8d1cef17c538c5a663ee4892e03e78bf9b"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Starter and salt added after the autolyse.",
+      "capture_date": "2026-07-29",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-salt-and-starter-added-2026-07-29.jpg",
+        "sha256": "bc97812af171f9ffe973a5e2abbcf0bf8a4e54d6c53f5c9159eb5ab89ab27233",
+        "width": 1500
+      },
+      "original_image": "IMG_9816.JPG",
+      "prepared_image": "bake001-salt-and-starter-added-2026-07-29.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-salt-and-starter-added-2026-07-29.jpg",
+        "sha256": "b1d86808a8a7ce19a69063e785d30f442cdf517d86d688409a068871326ac1c8"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Dough Cloony mixing everything together.",
+      "capture_date": "2026-07-29",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-mixing-in-progress-2026-07-29.jpg",
+        "sha256": "485b8f80f3c2b4476fdf03de68d885d51163130aa8d4e84a42bce8bac7a682ae",
+        "width": 1500
+      },
+      "original_image": "IMG_9817.JPG",
+      "prepared_image": "bake001-mixing-in-progress-2026-07-29.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-mixing-in-progress-2026-07-29.jpg",
+        "sha256": "764274eeaea408da07486504afe224502113f7b752aad03db514c7a9407ce172"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Before the first stretch-and-fold.",
+      "capture_date": "2026-07-29",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-start-of-bulk-ferment-2026-07-29.jpg",
+        "sha256": "6e1b22960d31746c02b2a1179a2e89d60b728c9f1a02c716d243362b0013a952",
+        "width": 1500
+      },
+      "original_image": "IMG_9818.JPG",
+      "prepared_image": "bake001-start-of-bulk-ferment-2026-07-29.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-start-of-bulk-ferment-2026-07-29.jpg",
+        "sha256": "836284a6411962fa9f60ac32547d78d51ae5b9d65edb2481815b5c5f41ced524"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "After the first stretch-and-fold.",
+      "capture_date": "2026-07-29",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-01.jpg",
+        "sha256": "6595e4da2d858d636090698253306ff72f376793c41cfb25c4ada12f0b9005a9",
+        "width": 1500
+      },
+      "original_image": "IMG_9819.JPG",
+      "prepared_image": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-01.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-01.jpg",
+        "sha256": "7be02b18847c13fba38ae6b3f2f007471d9e07e35ce4d68b84fc917284fb061a"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Before the second stretch-and-fold.",
+      "capture_date": "2026-07-29",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-02.jpg",
+        "sha256": "a9ac47613ccbe35226ba0ca4f2dc0b185b6a725965507a2f049627afe0809aea",
+        "width": 1500
+      },
+      "original_image": "IMG_9820.JPG",
+      "prepared_image": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-02.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-02.jpg",
+        "sha256": "7768ff0fb50c00868e468f4f96ceac64a14bf853a1c1cf56840d7228462a9ada"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "After the second stretch-and-fold.",
+      "capture_date": "2026-07-29",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-03.jpg",
+        "sha256": "07111f6c4f01c9a933579e66476d7511949afa166e2ca176576ac473edba9dd3",
+        "width": 1500
+      },
+      "original_image": "IMG_9821.JPG",
+      "prepared_image": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-03.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-03.jpg",
+        "sha256": "0404fa17b54142ad085d474dc8d44116c1b9f596431ea2a006098235c3d12572"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Before the third stretch-and-fold.",
+      "capture_date": "2026-07-29",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-04.jpg",
+        "sha256": "58cd363c946d51af66a4956cabf954bbaa1677de9cefd3836a55242c8c655289",
+        "width": 1500
+      },
+      "original_image": "IMG_9822.JPG",
+      "prepared_image": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-04.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-04.jpg",
+        "sha256": "0d28d426246962db879998ebc46ecea7deb920f5433be101127c5e463a8315c0"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "After the third stretch-and-fold.",
+      "capture_date": "2026-07-29",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-05.jpg",
+        "sha256": "64fefbd77fc3a72fad6d43c67d64c1f41ee84bf9697adb6f3b9c60484e96fcb9",
+        "width": 1500
+      },
+      "original_image": "IMG_9823.JPG",
+      "prepared_image": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-05.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-05.jpg",
+        "sha256": "e79bba38dc6adebbbfdaf4af18332d046e90a0c9384b369cba10f7339b98817d"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Bulk fermentation at about 76°F.",
+      "capture_date": "2026-07-29",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-06.jpg",
+        "sha256": "fcf1157d3d9be959d90475e97a47437dbe5fcd059f3866450446a11de73fab6c",
+        "width": 1500
+      },
+      "original_image": "IMG_9824.JPG",
+      "prepared_image": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-06.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-06.jpg",
+        "sha256": "21efd2f245d8a339f4fb1aaace15090462f5069f7f05460b681704e597a62c51"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The dough around 10 PM before going into the refrigerator.",
+      "capture_date": "2026-07-29",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-08.jpg",
+        "sha256": "c2664f0d8f60b8ca314cb21160c4314c2245d105198ab96d3eaa876c8001ac28",
+        "width": 1500
+      },
+      "original_image": "IMG_9826.JPG",
+      "prepared_image": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-08.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-08.jpg",
+        "sha256": "1850d06e29f2a2d8a31af5ae48ca29f7f56c683519e3121acf9e4383c1c3ef35"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The dough around 6 AM after finishing bulk fermentation.",
+      "capture_date": "2026-07-30",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-bulk-ferment-progress-w-dough-temp-2026-07-30-03.jpg",
+        "sha256": "45ea712f0909dd21c677bdfa873229b663679448b338959b5825fce71ddba92a",
+        "width": 1500
+      },
+      "original_image": "IMG_9829.JPG",
+      "prepared_image": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-30-03.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-bulk-ferment-progress-w-dough-temp-2026-07-30-03.jpg",
+        "sha256": "9423b12872e7478214f7dfd8da896e34fd928e7e8cd3028484b9be0cd4cc32f0"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The dough turned out for shaping.",
+      "capture_date": "2026-07-30",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-turned-out-2026-07-30.jpg",
+        "sha256": "44d5992acbd57b4dc740479ef0bdc9601a07255fe4ce198ed228b499fd2d5841",
+        "width": 1500
+      },
+      "original_image": "IMG_9830.JPG",
+      "prepared_image": "bake001-turned-out-2026-07-30.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-turned-out-2026-07-30.jpg",
+        "sha256": "520d49ec2b12a5434aedc9fffe7ecba56b8655c289574b2ea8d2b4483da7cc74"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The pre-shaped loaf.",
+      "capture_date": "2026-07-30",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-pre-shape-2026-07-30.jpg",
+        "sha256": "cc2e37edae2e5ffe664e14bc3f3d5e0069ae9373362a4ca2dd5c84b9dac44e1c",
+        "width": 1500
+      },
+      "original_image": "IMG_9831.JPG",
+      "prepared_image": "bake001-pre-shape-2026-07-30.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-pre-shape-2026-07-30.jpg",
+        "sha256": "4ed8fd9fdea3e9ad3127db3081ca9eeae3da6a308e2162d3a5f03a087e08c84c"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The floured baking surface after discovering there was no parchment paper.",
+      "capture_date": "2026-07-30",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-floured-vessel-no-paper-2026-07-30.jpg",
+        "sha256": "09c372bfc282d8f087181d2bc60b5f76917b65132f694eb78d807b319263f71f",
+        "width": 1500
+      },
+      "original_image": "IMG_9833.JPG",
+      "prepared_image": "bake001-floured-vessel-no-paper-2026-07-30.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-floured-vessel-no-paper-2026-07-30.jpg",
+        "sha256": "e9647d41b3b1534117b42bcaaf7dee4df28c4f1ba73a86343b68f84e10a45a2c"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Ready for the oven.",
+      "capture_date": "2026-07-30",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-right-before-oven-2026-07-30.jpg",
+        "sha256": "39f9f9c98251e42231ec71126fa6e2646cd3f402727acc296efef431a933cc4c",
+        "width": 1500
+      },
+      "original_image": "IMG_9836.JPG",
+      "prepared_image": "bake001-right-before-oven-2026-07-30.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-right-before-oven-2026-07-30.jpg",
+        "sha256": "6a9158b22033e7be721e8d3a450b1f4129e34a3eb6ddc6882c4c4793d232cf3e"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Back out of the oven after I remembered I forgot to score it.",
+      "capture_date": "2026-07-30",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-back-out-for-score-2026-07-30.jpg",
+        "sha256": "c7e0b05629699d6433f5f33100f3d2e8a8a12636af38ed3471db7c7ca6b26678",
+        "width": 1500
+      },
+      "original_image": "IMG_9838.JPG",
+      "prepared_image": "bake001-back-out-for-score-2026-07-30.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-back-out-for-score-2026-07-30.jpg",
+        "sha256": "75516663551544d5905425e1498ff6427fd7606254a61e0c14fb774c462bbf4a"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The first reveal after 25 minutes covered.",
+      "capture_date": "2026-07-30",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-after-first-25-min-bake-2026-07-30.jpg",
+        "sha256": "a7dd18df4b40c22b8864081a26a3fb283cc88879e77aeac4ae042bb0e70677ac",
+        "width": 1500
+      },
+      "original_image": "IMG_9839.JPG",
+      "prepared_image": "bake001-after-first-25-min-bake-2026-07-30.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-after-first-25-min-bake-2026-07-30.jpg",
+        "sha256": "5b199360a198adab18f36241e186eb8dd9728e8082c6a218bfd52176f8302e18"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Bread Pitt's first finished loaf.",
+      "capture_date": "2026-07-30",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-final-2026-07-30.jpg",
+        "sha256": "ee02b203947136643dfa47f7314a5cd1dfe102240becf6c8f8eb429ac6be8f02",
+        "width": 1500
+      },
+      "original_image": "IMG_9840.JPG",
+      "prepared_image": "bake001-final-2026-07-30.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-final-2026-07-30.jpg",
+        "sha256": "5434dd5c099dba6a43d4e8214b8d9a1a17b40613b11c56d23421958b400c79b3"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The final crumb.",
+      "capture_date": "2026-07-30",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake001/bake001-crumb-2026-07-30.jpg",
+        "sha256": "a4e9c7df11e77f2c448efd7063d4246b43875795d223b4cc46aa74a8109fcec1",
+        "width": 1500
+      },
+      "original_image": "IMG_9841.JPG",
+      "prepared_image": "bake001-crumb-2026-07-30.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake001/bake001-crumb-2026-07-30.jpg",
+        "sha256": "2ead1409682d15bed6b682e7a9adf601053d4f6da1523a4c0e856f9be6e782b3"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    }
+  ],
+  "profile": {
+    "maximum_edge": 2000,
+    "metadata_removed": true,
+    "output_format": "jpg",
+    "quality": 85
+  },
+  "project": "Bread Pitt",
+  "schema_version": 1,
+  "source": "working/media/bakes/2026/bake001",
+  "workflow": "bake001"
+}

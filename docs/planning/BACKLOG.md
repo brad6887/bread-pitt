@@ -1,7 +1,8 @@
+cat > docs/planning/BACKLOG.md <<'EOF'
 # Bread Pitt Backlog
 
 <!-- BEGIN GENERATED BACKLOG STATUS -->
-> **Backlog Status:** 7 complete · 3 pending · 10 total
+> **Backlog Status:** 10 complete · 6 pending · 16 total
 <!-- END GENERATED BACKLOG STATUS -->
 
 ## Independent Website
@@ -15,12 +16,27 @@
 ## Site Content
 
 - [x] Publish the initial Bread Pitt starter story and connect it to the site.
+- [x] Publish Bake001 and establish the Bakes section.
+- [x] Cross-link Bake001, the 50/50 White & Whole Wheat recipe, and the Bread
+      Pitt starter guide.
+- [ ] Derive recipe-index images automatically from each recipe's featured or
+      related bake, while retaining an optional explicit override for recipes
+      that need a different crop or image.
+- [ ] Generate bake pages from canonical bake content instead of maintaining
+      the narrative separately in `story.md` and hand-written Astro markup.
+
+## Bake Publishing Workflow
+
+- [ ] Generate `media-intake.json` automatically from the editorial selections
+      in `photos.yml` and the Abbey rename manifest.
+- [ ] Add reusable scaffolding for a new bake record, including `bake.yml`,
+      `photos.yml`, `story.md`, media directories, and publication paths.
 
 ## Abbey Portability
 
 - [x] Adopt project-owned Astro site and required-route validation.
-- [ ] Configure the first media preparation and publication workflow when real
-      starter photographs are ready for manifest-backed publication.
+- [x] Configure and validate the first project-owned manifest-backed media
+      publication workflow using Bake001 photographs.
 
 ## Starter Records
 
@@ -28,3 +44,4 @@
       available.
 - [ ] Record the earlier July starter cycles after the format proves convenient
       during normal use.
+EOF

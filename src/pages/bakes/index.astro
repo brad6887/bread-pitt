@@ -1,0 +1,31 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+---
+
+<BaseLayout
+  title="Bakes"
+  description="Bread Pitt bake records: what happened, what worked, what went wrong, and what I learned."
+>
+  <section class="page-intro wrap">
+    <p class="eyebrow">The bake log</p>
+    <h1>Bakes</h1>
+    <p>
+      The good loaves, the bad loaves, the mistakes, the recoveries, and what I learned from each one.
+    </p>
+  </section>
+
+  <section class="recipe-index wrap" aria-label="Bake collection">
+    <article class="recipe-card">
+      <a href="/bakes/bake001-first-big-role/" aria-label="Open Bread Pitt's First Big Role">
+        <span class="card-number">001</span>
+        <div>
+          <p class="card-kind">50/50 White & Whole Wheat Sourdough</p>
+          <h2>Bread Pitt's First Big Role</h2>
+          <p class="card-subtitle">July 29–30, 2026</p>
+          <p class="card-meta">8/10 thumbs up</p>
+        </div>
+        <span class="card-arrow" aria-hidden="true">↗</span>
+      </a>
+    </article>
+  </section>
+</BaseLayout>

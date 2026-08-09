@@ -1,0 +1,388 @@
+{
+  "schema_version": 1,
+  "project": "Bread Pitt",
+  "project_root": "/home/bcooke/git/bread-pitt",
+  "configuration": "/home/bcooke/git/bread-pitt/.abbey/media.yml",
+  "configuration_source": "active project",
+  "directory": "/home/bcooke/git/bread-pitt/working/media/bakes/2026/bake001",
+  "items": [
+    {
+      "caption": "Bake001 - starter just before bake",
+      "capture_date": "2026-07-28",
+      "capture_time": "2026:07:28 19:03:35",
+      "original_image": "IMG_9800.JPG",
+      "original_sidecar": "IMG_9800.xmp",
+      "published_image": "bake001-starter-just-before-bake-2026-07-28-01.jpg",
+      "published_sidecar": "bake001-starter-just-before-bake-2026-07-28-01.xmp"
+    },
+    {
+      "caption": "Bake001 - starter just before bake",
+      "capture_date": "2026-07-28",
+      "capture_time": "2026:07:28 19:03:47",
+      "original_image": "IMG_9801.JPG",
+      "original_sidecar": "IMG_9801.xmp",
+      "published_image": "bake001-starter-just-before-bake-2026-07-28-02.jpg",
+      "published_sidecar": "bake001-starter-just-before-bake-2026-07-28-02.xmp"
+    },
+    {
+      "caption": "Bake001 - starter just before bake",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 04:31:10",
+      "original_image": "IMG_9802.JPG",
+      "original_sidecar": "IMG_9802.xmp",
+      "published_image": "bake001-starter-just-before-bake-2026-07-29-01.jpg",
+      "published_sidecar": "bake001-starter-just-before-bake-2026-07-29-01.xmp"
+    },
+    {
+      "caption": "Bake001 - starter just before bake",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 04:31:14",
+      "original_image": "IMG_9803.JPG",
+      "original_sidecar": "IMG_9803.xmp",
+      "published_image": "bake001-starter-just-before-bake-2026-07-29-02.jpg",
+      "published_sidecar": "bake001-starter-just-before-bake-2026-07-29-02.xmp"
+    },
+    {
+      "caption": "Bake001 - starter just before bake",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 04:42:43",
+      "original_image": "IMG_9804.JPG",
+      "original_sidecar": "IMG_9804.xmp",
+      "published_image": "bake001-starter-just-before-bake-2026-07-29-03.jpg",
+      "published_sidecar": "bake001-starter-just-before-bake-2026-07-29-03.xmp"
+    },
+    {
+      "caption": "Bake001 - starter just before bake",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 10:59:15",
+      "original_image": "IMG_9805.JPG",
+      "original_sidecar": "IMG_9805.xmp",
+      "published_image": "bake001-starter-just-before-bake-2026-07-29-04.jpg",
+      "published_sidecar": "bake001-starter-just-before-bake-2026-07-29-04.xmp"
+    },
+    {
+      "caption": "Bake001 - starter  at start",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 14:15:15",
+      "original_image": "IMG_9806.JPG",
+      "original_sidecar": "IMG_9806.xmp",
+      "published_image": "bake001-starter-at-start-2026-07-29.jpg",
+      "published_sidecar": "bake001-starter-at-start-2026-07-29.xmp"
+    },
+    {
+      "caption": "Bake001 mixer Dough Cloony",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 14:17:51",
+      "original_image": "IMG_9807.JPG",
+      "original_sidecar": "IMG_9807.xmp",
+      "published_image": "bake001-mixer-dough-cloony-2026-07-29.jpg",
+      "published_sidecar": "bake001-mixer-dough-cloony-2026-07-29.xmp"
+    },
+    {
+      "caption": "Bake001",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 14:19:52",
+      "original_image": "IMG_9808.JPG",
+      "original_sidecar": "IMG_9808.xmp",
+      "published_image": "bake001-2026-07-29-01.jpg",
+      "published_sidecar": "bake001-2026-07-29-01.xmp"
+    },
+    {
+      "caption": "Bake001 ingredients flour",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 14:20:47",
+      "original_image": "IMG_9809.JPG",
+      "original_sidecar": "IMG_9809.xmp",
+      "published_image": "bake001-ingredients-flour-2026-07-29.jpg",
+      "published_sidecar": "bake001-ingredients-flour-2026-07-29.xmp"
+    },
+    {
+      "caption": "Bake001 water",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 14:22:29",
+      "original_image": "IMG_9810.JPG",
+      "original_sidecar": "IMG_9810.xmp",
+      "published_image": "bake001-water-2026-07-29.jpg",
+      "published_sidecar": "bake001-water-2026-07-29.xmp"
+    },
+    {
+      "caption": "Bake001 autolyze",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 14:24:51",
+      "original_image": "IMG_9811.JPG",
+      "original_sidecar": "IMG_9811.xmp",
+      "published_image": "bake001-autolyze-2026-07-29.jpg",
+      "published_sidecar": "bake001-autolyze-2026-07-29.xmp"
+    },
+    {
+      "caption": "Bake001",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 14:25:03",
+      "original_image": "IMG_9812.JPG",
+      "original_sidecar": "IMG_9812.xmp",
+      "published_image": "bake001-2026-07-29-02.jpg",
+      "published_sidecar": "bake001-2026-07-29-02.xmp"
+    },
+    {
+      "caption": "Bake001 starter just before mix",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 15:22:43",
+      "original_image": "IMG_9813.JPG",
+      "original_sidecar": "IMG_9813.xmp",
+      "published_image": "bake001-starter-just-before-mix-2026-07-29.jpg",
+      "published_sidecar": "bake001-starter-just-before-mix-2026-07-29.xmp"
+    },
+    {
+      "caption": "Bake001 starter measured out",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 15:25:35",
+      "original_image": "IMG_9814.JPG",
+      "original_sidecar": "IMG_9814.xmp",
+      "published_image": "bake001-starter-measured-out-2026-07-29.jpg",
+      "published_sidecar": "bake001-starter-measured-out-2026-07-29.xmp"
+    },
+    {
+      "caption": "Bake001 ingredient salt",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 15:27:49",
+      "original_image": "IMG_9815.JPG",
+      "original_sidecar": "IMG_9815.xmp",
+      "published_image": "bake001-ingredient-salt-2026-07-29.jpg",
+      "published_sidecar": "bake001-ingredient-salt-2026-07-29.xmp"
+    },
+    {
+      "caption": "Bake001 salt and starter added",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 15:28:57",
+      "original_image": "IMG_9816.JPG",
+      "original_sidecar": "IMG_9816.xmp",
+      "published_image": "bake001-salt-and-starter-added-2026-07-29.jpg",
+      "published_sidecar": "bake001-salt-and-starter-added-2026-07-29.xmp"
+    },
+    {
+      "caption": "Bake001 mixing in progress",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 15:29:19",
+      "original_image": "IMG_9817.JPG",
+      "original_sidecar": "IMG_9817.xmp",
+      "published_image": "bake001-mixing-in-progress-2026-07-29.jpg",
+      "published_sidecar": "bake001-mixing-in-progress-2026-07-29.xmp"
+    },
+    {
+      "caption": "Bake001 start of bulk ferment",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 15:33:30",
+      "original_image": "IMG_9818.JPG",
+      "original_sidecar": "IMG_9818.xmp",
+      "published_image": "bake001-start-of-bulk-ferment-2026-07-29.jpg",
+      "published_sidecar": "bake001-start-of-bulk-ferment-2026-07-29.xmp"
+    },
+    {
+      "caption": "Bake001 Bulk ferment progress w/dough temp",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 16:03:05",
+      "original_image": "IMG_9819.JPG",
+      "original_sidecar": "IMG_9819.xmp",
+      "published_image": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-01.jpg",
+      "published_sidecar": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-01.xmp"
+    },
+    {
+      "caption": "Bake001 Bulk ferment progress w/dough temp",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 16:32:25",
+      "original_image": "IMG_9820.JPG",
+      "original_sidecar": "IMG_9820.xmp",
+      "published_image": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-02.jpg",
+      "published_sidecar": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-02.xmp"
+    },
+    {
+      "caption": "Bake001 Bulk ferment progress w/dough temp",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 16:33:54",
+      "original_image": "IMG_9821.JPG",
+      "original_sidecar": "IMG_9821.xmp",
+      "published_image": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-03.jpg",
+      "published_sidecar": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-03.xmp"
+    },
+    {
+      "caption": "Bake001 Bulk ferment progress w/dough temp",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 17:01:47",
+      "original_image": "IMG_9822.JPG",
+      "original_sidecar": "IMG_9822.xmp",
+      "published_image": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-04.jpg",
+      "published_sidecar": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-04.xmp"
+    },
+    {
+      "caption": "Bake001 Bulk ferment progress w/dough temp",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 17:03:14",
+      "original_image": "IMG_9823.JPG",
+      "original_sidecar": "IMG_9823.xmp",
+      "published_image": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-05.jpg",
+      "published_sidecar": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-05.xmp"
+    },
+    {
+      "caption": "Bake001 Bulk ferment progress w/dough temp",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 18:15:33",
+      "original_image": "IMG_9824.JPG",
+      "original_sidecar": "IMG_9824.xmp",
+      "published_image": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-06.jpg",
+      "published_sidecar": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-06.xmp"
+    },
+    {
+      "caption": "Bake001 Bulk ferment progress w/dough temp",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 20:28:31",
+      "original_image": "IMG_9825.JPG",
+      "original_sidecar": "IMG_9825.xmp",
+      "published_image": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-07.jpg",
+      "published_sidecar": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-07.xmp"
+    },
+    {
+      "caption": "Bake001 Bulk ferment progress w/dough temp",
+      "capture_date": "2026-07-29",
+      "capture_time": "2026:07:29 21:56:15",
+      "original_image": "IMG_9826.JPG",
+      "original_sidecar": "IMG_9826.xmp",
+      "published_image": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-08.jpg",
+      "published_sidecar": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-08.xmp"
+    },
+    {
+      "caption": "Bake001 Bulk ferment progress w/dough temp",
+      "capture_date": "2026-07-30",
+      "capture_time": "2026:07:30 03:57:24",
+      "original_image": "IMG_9827.JPG",
+      "original_sidecar": "IMG_9827.xmp",
+      "published_image": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-30-01.jpg",
+      "published_sidecar": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-30-01.xmp"
+    },
+    {
+      "caption": "Bake001 Bulk ferment progress w/dough temp",
+      "capture_date": "2026-07-30",
+      "capture_time": "2026:07:30 05:10:08",
+      "original_image": "IMG_9828.JPG",
+      "original_sidecar": "IMG_9828.xmp",
+      "published_image": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-30-02.jpg",
+      "published_sidecar": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-30-02.xmp"
+    },
+    {
+      "caption": "Bake001 Bulk ferment progress w/dough temp",
+      "capture_date": "2026-07-30",
+      "capture_time": "2026:07:30 06:01:38",
+      "original_image": "IMG_9829.JPG",
+      "original_sidecar": "IMG_9829.xmp",
+      "published_image": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-30-03.jpg",
+      "published_sidecar": "bake001-bulk-ferment-progress-w-dough-temp-2026-07-30-03.xmp"
+    },
+    {
+      "caption": "Bake001 turned out",
+      "capture_date": "2026-07-30",
+      "capture_time": "2026:07:30 06:06:39",
+      "original_image": "IMG_9830.JPG",
+      "original_sidecar": "IMG_9830.xmp",
+      "published_image": "bake001-turned-out-2026-07-30.jpg",
+      "published_sidecar": "bake001-turned-out-2026-07-30.xmp"
+    },
+    {
+      "caption": "Bake001 pre shape",
+      "capture_date": "2026-07-30",
+      "capture_time": "2026:07:30 06:09:12",
+      "original_image": "IMG_9831.JPG",
+      "original_sidecar": "IMG_9831.xmp",
+      "published_image": "bake001-pre-shape-2026-07-30.jpg",
+      "published_sidecar": "bake001-pre-shape-2026-07-30.xmp"
+    },
+    {
+      "caption": "Bake001 preshape after rest",
+      "capture_date": "2026-07-30",
+      "capture_time": "2026:07:30 06:35:42",
+      "original_image": "IMG_9832.JPG",
+      "original_sidecar": "IMG_9832.xmp",
+      "published_image": "bake001-preshape-after-rest-2026-07-30.jpg",
+      "published_sidecar": "bake001-preshape-after-rest-2026-07-30.xmp"
+    },
+    {
+      "caption": "Bake001 floured vessel no paper",
+      "capture_date": "2026-07-30",
+      "capture_time": "2026:07:30 06:35:48",
+      "original_image": "IMG_9833.JPG",
+      "original_sidecar": "IMG_9833.xmp",
+      "published_image": "bake001-floured-vessel-no-paper-2026-07-30.jpg",
+      "published_sidecar": "bake001-floured-vessel-no-paper-2026-07-30.xmp"
+    },
+    {
+      "caption": "Bake001 shaped",
+      "capture_date": "2026-07-30",
+      "capture_time": "2026:07:30 06:39:09",
+      "original_image": "IMG_9834.JPG",
+      "original_sidecar": "IMG_9834.xmp",
+      "published_image": "bake001-shaped-2026-07-30.jpg",
+      "published_sidecar": "bake001-shaped-2026-07-30.xmp"
+    },
+    {
+      "caption": "Bake001 in banneton",
+      "capture_date": "2026-07-30",
+      "capture_time": "2026:07:30 06:41:00",
+      "original_image": "IMG_9835.JPG",
+      "original_sidecar": "IMG_9835.xmp",
+      "published_image": "bake001-in-banneton-2026-07-30.jpg",
+      "published_sidecar": "bake001-in-banneton-2026-07-30.xmp"
+    },
+    {
+      "caption": "Bake001 right before oven",
+      "capture_date": "2026-07-30",
+      "capture_time": "2026:07:30 06:56:39",
+      "original_image": "IMG_9836.JPG",
+      "original_sidecar": "IMG_9836.xmp",
+      "published_image": "bake001-right-before-oven-2026-07-30.jpg",
+      "published_sidecar": "bake001-right-before-oven-2026-07-30.xmp"
+    },
+    {
+      "caption": "Bake001 in oven",
+      "capture_date": "2026-07-30",
+      "capture_time": "2026:07:30 06:57:23",
+      "original_image": "IMG_9837.JPG",
+      "original_sidecar": "IMG_9837.xmp",
+      "published_image": "bake001-in-oven-2026-07-30.jpg",
+      "published_sidecar": "bake001-in-oven-2026-07-30.xmp"
+    },
+    {
+      "caption": "Bake001 back out for score",
+      "capture_date": "2026-07-30",
+      "capture_time": "2026:07:30 07:00:10",
+      "original_image": "IMG_9838.JPG",
+      "original_sidecar": "IMG_9838.xmp",
+      "published_image": "bake001-back-out-for-score-2026-07-30.jpg",
+      "published_sidecar": "bake001-back-out-for-score-2026-07-30.xmp"
+    },
+    {
+      "caption": "Bake001 after first 25 min bake",
+      "capture_date": "2026-07-30",
+      "capture_time": "2026:07:30 07:23:25",
+      "original_image": "IMG_9839.JPG",
+      "original_sidecar": "IMG_9839.xmp",
+      "published_image": "bake001-after-first-25-min-bake-2026-07-30.jpg",
+      "published_sidecar": "bake001-after-first-25-min-bake-2026-07-30.xmp"
+    },
+    {
+      "caption": "Bake001 final",
+      "capture_date": "2026-07-30",
+      "capture_time": "2026:07:30 07:47:04",
+      "original_image": "IMG_9840.JPG",
+      "original_sidecar": "IMG_9840.xmp",
+      "published_image": "bake001-final-2026-07-30.jpg",
+      "published_sidecar": "bake001-final-2026-07-30.xmp"
+    },
+    {
+      "caption": "Bake001 crumb",
+      "capture_date": "2026-07-30",
+      "capture_time": "2026:07:30 08:45:08",
+      "original_image": "IMG_9841.JPG",
+      "original_sidecar": "IMG_9841.xmp",
+      "published_image": "bake001-crumb-2026-07-30.jpg",
+      "published_sidecar": "bake001-crumb-2026-07-30.xmp"
+    }
+  ]
+}

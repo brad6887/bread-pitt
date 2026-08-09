@@ -1,0 +1,116 @@
+schema_version: 1
+
+bake: bake001
+source_directory: working/media/bakes/2026/bake001
+rename_manifest: working/media/bakes/2026/bake001/.abbey-rename-manifest.json
+
+hero: final-loaf
+
+photos:
+  - id: starter-ready
+    prepared_image: bake001-starter-at-start-2026-07-29.jpg
+    caption: "Bread Pitt at the start of Bake001."
+
+  - id: dough-cloony
+    prepared_image: bake001-mixer-dough-cloony-2026-07-29.jpg
+    caption: "Dough Cloony reporting for duty."
+
+  - id: flour
+    prepared_image: bake001-ingredients-flour-2026-07-29.jpg
+    caption: "Bread flour and whole wheat flour for the 50/50 loaf."
+
+  - id: autolyse
+    prepared_image: bake001-autolyze-2026-07-29.jpg
+    caption: "Flour and water at the start of the autolyse."
+
+  - id: starter-before-mix
+    prepared_image: bake001-starter-just-before-mix-2026-07-29.jpg
+    caption: "Bread Pitt just before mixing."
+
+  - id: starter-and-salt
+    prepared_image: bake001-salt-and-starter-added-2026-07-29.jpg
+    caption: "Starter and salt added after the autolyse."
+
+  - id: mixing
+    prepared_image: bake001-mixing-in-progress-2026-07-29.jpg
+    caption: "Dough Cloony mixing everything together."
+
+  - id: fold-1-before
+    prepared_image: bake001-start-of-bulk-ferment-2026-07-29.jpg
+    caption: "Before the first stretch-and-fold."
+    group: fold-1
+    position: before
+
+  - id: fold-1-after
+    prepared_image: bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-01.jpg
+    caption: "After the first stretch-and-fold."
+    group: fold-1
+    position: after
+
+  - id: fold-2-before
+    prepared_image: bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-02.jpg
+    caption: "Before the second stretch-and-fold."
+    group: fold-2
+    position: before
+
+  - id: fold-2-after
+    prepared_image: bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-03.jpg
+    caption: "After the second stretch-and-fold."
+    group: fold-2
+    position: after
+
+  - id: fold-3-before
+    prepared_image: bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-04.jpg
+    caption: "Before the third stretch-and-fold."
+    group: fold-3
+    position: before
+
+  - id: fold-3-after
+    prepared_image: bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-05.jpg
+    caption: "After the third stretch-and-fold."
+    group: fold-3
+    position: after
+
+  - id: bulk-temperature
+    prepared_image: bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-06.jpg
+    caption: "Bulk fermentation at about 76°F."
+
+  - id: bulk-before-fridge
+    prepared_image: bake001-bulk-ferment-progress-w-dough-temp-2026-07-29-08.jpg
+    caption: "The dough around 10 PM before going into the refrigerator."
+
+  - id: bulk-morning
+    prepared_image: bake001-bulk-ferment-progress-w-dough-temp-2026-07-30-03.jpg
+    caption: "The dough around 6 AM after finishing bulk fermentation."
+
+  - id: turned-out
+    prepared_image: bake001-turned-out-2026-07-30.jpg
+    caption: "The dough turned out for shaping."
+
+  - id: preshape
+    prepared_image: bake001-pre-shape-2026-07-30.jpg
+    caption: "The pre-shaped loaf."
+
+  - id: no-parchment
+    prepared_image: bake001-floured-vessel-no-paper-2026-07-30.jpg
+    caption: "The floured baking surface after discovering there was no parchment paper."
+
+  - id: ready-for-oven
+    prepared_image: bake001-right-before-oven-2026-07-30.jpg
+    caption: "Ready for the oven."
+
+  - id: forgotten-score
+    prepared_image: bake001-back-out-for-score-2026-07-30.jpg
+    caption: "Back out of the oven after I remembered I forgot to score it."
+
+  - id: lid-off
+    prepared_image: bake001-after-first-25-min-bake-2026-07-30.jpg
+    caption: "The first reveal after 25 minutes covered."
+
+  - id: final-loaf
+    prepared_image: bake001-final-2026-07-30.jpg
+    caption: "Bread Pitt's first finished loaf."
+
+  - id: crumb
+    prepared_image: bake001-crumb-2026-07-30.jpg
+    caption: "The final crumb."

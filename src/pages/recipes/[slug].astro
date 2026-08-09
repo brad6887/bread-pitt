@@ -21,6 +21,25 @@ const { recipe } = Astro.props;
       </dl>
     </header>
 
+{recipe.featuredBake && (
+  <section class="featured-bake">
+    <p class="eyebrow">Featured bake</p>
+
+    <a href={recipe.featuredBake.path} class="featured-bake-link">
+      <img
+        src={recipe.featuredBake.image}
+        alt={recipe.featuredBake.alt}
+      />
+      <div>
+        <h2>{recipe.featuredBake.title}</h2>
+        <p>{recipe.featuredBake.description}</p>
+        <span class="text-link">
+          Read the bake story <span aria-hidden="true">→</span>
+        </span>
+      </div>
+    </a>
+  </section>
+)}
     <div class="recipe-body">
       <aside class="ingredients" aria-label="Ingredients">
         <h2>Ingredients</h2>

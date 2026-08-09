@@ -1,0 +1,47 @@
+schema_version: 1
+
+bake:
+  id: bake001
+  title: "Bread Pitt's First Big Role"
+  tagline: "Everybody remembers the first loaf... especially the baker."
+
+  started: 2026-07-29
+  completed: 2026-07-30
+
+  status: complete
+  rating: 8
+  rating_scale: 10
+
+relationships:
+  recipe:
+    slug: fifty-fifty-white-whole-wheat-sourdough
+    title: "50/50 White & Whole Wheat Sourdough"
+    path: /recipes/fifty-fifty-white-whole-wheat-sourdough/
+
+  starter:
+    name: "Bread Pitt 2.0"
+    path: /starter/
+
+result:
+  summary: >
+    Bread Pitt 2.0 produced a successful first loaf with strong oven spring,
+    good crust color, and good flavor. The crumb had a couple of large pockets
+    beneath the score, suggesting the final proof could have gone a little
+    longer.
+
+  internal_temperature_f: 209
+
+lessons:
+  - "Give the final proof another 20–30 minutes next time."
+  - "The KitchenAid bread bowl released cleanly without parchment."
+  - "Remember to score the loaf before putting it in the oven."
+  - "Watch the dough instead of treating fermentation times as deadlines."
+
+media:
+  directory: media/bakes/2026/bake001
+  photo_manifest: content/bakes/2026/bake001/photos.yml
+  hero: final-loaf
+
+publication:
+  route: /bakes/bake001-first-big-role/
+  story: content/bakes/2026/bake001/story.md
