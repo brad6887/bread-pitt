@@ -6,6 +6,8 @@ After Bake001 proved that Bread Pitt 2.0 could make a respectable loaf of sourdo
 
 A sandwich loaf.
 
+The recipe for this bake is available here: [Sourdough Sandwich Bread](/recipes/sourdough-sandwich-bread/).
+
 {{ photo: hero }}
 
 The goal was pretty simple: make a loaf that works for sandwiches, makes good toast, and still has that sourdough flavor. Something that could become an actual part of the kitchen routine instead of just sitting there looking pretty while I take pictures of it.
@@ -31,19 +33,19 @@ Time to make some bread.
 
 ## Mixing the Dough
 
-This recipe brought a new ingredient into the experiment: scalded milk.
+This recipe brought a new technique into the experiment: scalded milk.
 
-The recipe calls for heating the milk to **180°F** before using it. Scalding the milk helps break down proteins that can interfere with fermentation and can improve the texture of enriched breads.
-
-After heating the milk, I cooled it down while mixing in the butter and honey before adding it to the dough. That helped, but the dough still finished mixing at **85°F**.
+The recipe calls for heating the milk to **180°F** before using it. Scalding the milk is supposed to help improve the texture of enriched breads. The interesting part for this bake was managing the temperature afterward.
 
 {{ gallery: ingredients }}
+
+After heating the milk, I cooled it down while mixing in the butter and honey before adding it to the dough. That helped, but the dough still finished mixing at **85°F**.
 
 That was warmer than I expected, so I knew fermentation was probably going to get a little head start.
 
 The recipe called for 2–3 minutes of mixing. After that first mix, the dough had come together but still looked pretty rough. A short rest helped, then another couple of minutes in Dough Cloony brought everything together.
 
-Next time, I would cool the milk mixture a little longer before mixing. The scalding step stays, because it is there for a reason, but starting with a slightly cooler dough temperature should make the fermentation timeline easier to manage.
+Next time, I would cool the milk mixture a little longer before mixing. The scalding step stays; the challenge is getting the benefits without starting fermentation warmer than intended.
 
 {{ gallery: mixing }}
 
@@ -154,4 +156,3 @@ Bake002 reinforced the same lesson Bake001 started:
 The recipe gives you a plan.
 
 The dough gets the final vote.
-EOF
