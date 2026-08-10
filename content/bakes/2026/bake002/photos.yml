@@ -1,0 +1,82 @@
+schema_version: 1
+
+bake: bake002
+source_directory: working/media/bakes/2026/bake002
+rename_manifest: working/media/bakes/2026/bake002/.abbey-rename-manifest.json
+
+galleries:
+  ingredients:
+    layout: grid
+
+  mixing:
+    layout: grid
+
+  fermentation:
+    layout: comparison
+
+  final:
+    layout: grid
+
+photos:
+  - id: hero
+    prepared_image: bake002-baked-in-pan-2026-08-07.jpg
+    caption: "The finished sourdough sandwich loaf."
+
+  - id: starter-ready
+    prepared_image: bake002-bread-pitt-starter-ready-2026-08-06.jpg
+    caption: "Bread Pitt ready for another bake."
+
+  - id: flour
+    prepared_image: bake002-ingredients-flour-2026-08-06.jpg
+    caption: "The flour blend for the sandwich loaf."
+
+  - id: butter
+    prepared_image: bake002-ingredients-butter-2026-08-06.jpg
+    caption: "Butter going into the enriched dough."
+    group: ingredients
+
+  - id: milk
+    prepared_image: bake002-ingredients-milk-2026-08-06.jpg
+    caption: "Milk preparation for the loaf."
+    group: ingredients
+
+  - id: starter
+    prepared_image: bake002-ingredients-starter-2026-08-06.jpg
+    caption: "Bread Pitt added to the mix."
+    group: ingredients
+
+  - id: mixing
+    prepared_image: bake002-mixing-2026-08-06-04.jpg
+    caption: "Dough Cloony bringing everything together."
+    group: mixing
+
+  - id: mixed
+    prepared_image: bake002-mixed-2026-08-06.jpg
+    caption: "The finished dough after mixing."
+    group: mixing
+
+  - id: bulk-start
+    prepared_image: bake002-bulk-fermentation-2026-08-06-01.jpg
+    caption: "The start of bulk fermentation."
+    group: fermentation
+    position: before
+
+  - id: bulk-progress
+    prepared_image: bake002-bulk-fermentation-2026-08-06-04.jpg
+    caption: "The dough after fermentation progress."
+    group: fermentation
+    position: after
+
+  - id: final-proof
+    prepared_image: bake002-final-proof-before-fridge-2026-08-06.jpg
+    caption: "Final proof before the overnight rest."
+
+  - id: baked
+    prepared_image: baked-out-of-pan-2026-08-07.jpg
+    caption: "Fresh out of the pan."
+    group: final
+
+  - id: crumb
+    prepared_image: bake002-crumb-2026-08-07.jpg
+    caption: "The crumb after cooling."
+    group: final

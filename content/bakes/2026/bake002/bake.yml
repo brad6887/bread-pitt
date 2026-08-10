@@ -1,0 +1,38 @@
+schema_version: 1
+
+bake:
+  id: bake002
+  title: "The Sandwich Bread Experiment"
+  tagline: "A softer sourdough loaf, a longer fermentation, and a reminder that every bake teaches something."
+  started: 2026-08-06
+  completed: 2026-08-07
+  status: complete
+  rating: 8.5
+  rating_scale: 10
+
+relationships:
+  recipe:
+    slug: sourdough-sandwich-bread
+  starter:
+    name: "Bread Pitt 2.0"
+    path: /starter/
+
+result:
+  summary: "Excellent flavor and good texture with a slightly denser bottom and a little less rise than I wanted."
+  internal_temperature_f: 191
+
+lessons:
+  - "Cool the scalded milk mixture longer next time so the dough starts a little cooler."
+  - "A short autolyze may help the flour hydrate and improve dough development."
+  - "One or two folds during bulk may help build more strength."
+  - "Let the final proof continue a little farther above the pan rim next time."
+  - "Watch the dough instead of treating the recipe timeline as a deadline."
+
+media:
+  directory: media/bakes/2026/bake002
+  photo_manifest: content/bakes/2026/bake002/photos.yml
+  hero: hero
+
+publication:
+  route: /bakes/bake002/
+  story: content/bakes/2026/bake002/story.md

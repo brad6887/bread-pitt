@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "caption": "The finished sourdough sandwich loaf.",
+      "capture_date": "2026-08-07",
+      "original_image": "IMG_9965.JPG",
+      "published_image": "bake002-baked-in-pan-2026-08-07.jpg"
+    },
+    {
+      "caption": "Bread Pitt ready for another bake.",
+      "capture_date": "2026-08-06",
+      "original_image": "IMG_9935.JPG",
+      "published_image": "bake002-bread-pitt-starter-ready-2026-08-06.jpg"
+    },
+    {
+      "caption": "The flour blend for the sandwich loaf.",
+      "capture_date": "2026-08-06",
+      "original_image": "IMG_9936.JPG",
+      "published_image": "bake002-ingredients-flour-2026-08-06.jpg"
+    },
+    {
+      "caption": "Butter going into the enriched dough.",
+      "capture_date": "2026-08-06",
+      "original_image": "IMG_9937.JPG",
+      "published_image": "bake002-ingredients-butter-2026-08-06.jpg"
+    },
+    {
+      "caption": "Milk preparation for the loaf.",
+      "capture_date": "2026-08-06",
+      "original_image": "IMG_9938.JPG",
+      "published_image": "bake002-ingredients-milk-2026-08-06.jpg"
+    },
+    {
+      "caption": "Bread Pitt added to the mix.",
+      "capture_date": "2026-08-06",
+      "original_image": "IMG_9942.JPG",
+      "published_image": "bake002-ingredients-starter-2026-08-06.jpg"
+    },
+    {
+      "caption": "Dough Cloony bringing everything together.",
+      "capture_date": "2026-08-06",
+      "original_image": "IMG_9946.JPG",
+      "published_image": "bake002-mixing-2026-08-06-04.jpg"
+    },
+    {
+      "caption": "The finished dough after mixing.",
+      "capture_date": "2026-08-06",
+      "original_image": "IMG_9947.JPG",
+      "published_image": "bake002-mixed-2026-08-06.jpg"
+    },
+    {
+      "caption": "The start of bulk fermentation.",
+      "capture_date": "2026-08-06",
+      "original_image": "IMG_9952.JPG",
+      "published_image": "bake002-bulk-fermentation-2026-08-06-01.jpg"
+    },
+    {
+      "caption": "The dough after fermentation progress.",
+      "capture_date": "2026-08-06",
+      "original_image": "IMG_9955.JPG",
+      "published_image": "bake002-bulk-fermentation-2026-08-06-04.jpg"
+    },
+    {
+      "caption": "Final proof before the overnight rest.",
+      "capture_date": "2026-08-06",
+      "original_image": "IMG_9958.JPG",
+      "published_image": "bake002-final-proof-before-fridge-2026-08-06.jpg"
+    },
+    {
+      "caption": "Fresh out of the pan.",
+      "capture_date": "2026-08-07",
+      "original_image": "IMG_9966.JPG",
+      "published_image": "baked-out-of-pan-2026-08-07.jpg"
+    },
+    {
+      "caption": "The crumb after cooling.",
+      "capture_date": "2026-08-07",
+      "original_image": "IMG_9967.JPG",
+      "published_image": "bake002-crumb-2026-08-07.jpg"
+    }
+  ]
+}

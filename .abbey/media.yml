@@ -22,3 +22,13 @@ publish:
     output_format: jpg
     max_edge: 2000
     quality: 85
+
+
+  bake002:
+    source: working/media/bakes/2026/bake002
+    destination: public/images/bakes/2026/bake002
+    intake_manifest: content/bakes/2026/bake002/media-intake.json
+    manifest: content/bakes/2026/bake002/media-publication.json
+    output_format: jpg
+    max_edge: 2000
+    quality: 85

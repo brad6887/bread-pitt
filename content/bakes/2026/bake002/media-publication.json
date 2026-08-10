@@ -1,0 +1,447 @@
+{
+  "configuration": ".abbey/media.yml",
+  "configuration_source": "active project",
+  "destination": "public/images/bakes/2026/bake002",
+  "intake_manifest": "content/bakes/2026/bake002/media-intake.json",
+  "items": [
+    {
+      "caption": "The finished sourdough sandwich loaf.",
+      "capture_date": "2026-08-07",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake002/bake002-baked-in-pan-2026-08-07.jpg",
+        "sha256": "84a6c00d9e9c65b815ab5f009b82a3c274ac6ef07b838f6f3f1f8811f4d21a49",
+        "width": 1500
+      },
+      "original_image": "IMG_9965.JPG",
+      "prepared_image": "bake002-baked-in-pan-2026-08-07.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake002/bake002-baked-in-pan-2026-08-07.jpg",
+        "sha256": "94ff61f55c785430620fca74cf0cfc3424f7941663c01be722eb2249d6614ea4"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Bread Pitt ready for another bake.",
+      "capture_date": "2026-08-06",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake002/bake002-bread-pitt-starter-ready-2026-08-06.jpg",
+        "sha256": "9df5c4c4d0d899c8b0efbf2b75f93e5be30fd19f43bf67047bdef6763821705d",
+        "width": 1500
+      },
+      "original_image": "IMG_9935.JPG",
+      "prepared_image": "bake002-bread-pitt-starter-ready-2026-08-06.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake002/bake002-bread-pitt-starter-ready-2026-08-06.jpg",
+        "sha256": "068a4ecd4c1781f1eb25287719ae46c055f30c8a120b903ee12417f0a0af2f8a"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The flour blend for the sandwich loaf.",
+      "capture_date": "2026-08-06",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake002/bake002-ingredients-flour-2026-08-06.jpg",
+        "sha256": "3a9980fcd69feb5b70e3b02fb6f6e43591c9f975b011dbccf90d87c63e68b669",
+        "width": 1500
+      },
+      "original_image": "IMG_9936.JPG",
+      "prepared_image": "bake002-ingredients-flour-2026-08-06.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake002/bake002-ingredients-flour-2026-08-06.jpg",
+        "sha256": "a8d74a5ed09daa136e4f816e39dfbb0e0b89aaad20b73f4b795be27f958d6f9f"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Butter going into the enriched dough.",
+      "capture_date": "2026-08-06",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake002/bake002-ingredients-butter-2026-08-06.jpg",
+        "sha256": "7fd06fbabf9b85ee487fcc06a5d2cc8bdc56c3ff96515bb431533f7a91f29b70",
+        "width": 1500
+      },
+      "original_image": "IMG_9937.JPG",
+      "prepared_image": "bake002-ingredients-butter-2026-08-06.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake002/bake002-ingredients-butter-2026-08-06.jpg",
+        "sha256": "099f43905dad9e34a5f9641dc468c2b099d1932e96df1ce4c35da47603c22c8d"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Milk preparation for the loaf.",
+      "capture_date": "2026-08-06",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake002/bake002-ingredients-milk-2026-08-06.jpg",
+        "sha256": "c13f754966a2b33c3f80d7dfc41691cdbbc549d17ea5df590a782c9e4a6d9e6b",
+        "width": 1500
+      },
+      "original_image": "IMG_9938.JPG",
+      "prepared_image": "bake002-ingredients-milk-2026-08-06.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake002/bake002-ingredients-milk-2026-08-06.jpg",
+        "sha256": "9943d1f05feed243ced3b5a6449f7613d09abf42a0afd88a6edebe03204c90bf"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Bread Pitt added to the mix.",
+      "capture_date": "2026-08-06",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake002/bake002-ingredients-starter-2026-08-06.jpg",
+        "sha256": "eebb8608cb90c11af0f65208e9a6a184d6072d1747ab38cda32185744b6a685b",
+        "width": 1500
+      },
+      "original_image": "IMG_9942.JPG",
+      "prepared_image": "bake002-ingredients-starter-2026-08-06.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake002/bake002-ingredients-starter-2026-08-06.jpg",
+        "sha256": "76076d67ae50754e5649ef63d9332c38f1c168e9f4a418da00fe0d8f09bfbd57"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Dough Cloony bringing everything together.",
+      "capture_date": "2026-08-06",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake002/bake002-mixing-2026-08-06-04.jpg",
+        "sha256": "9f186c21a8c83fd4af7121227b5df6e1a1fb29651563ca39fbaba23f05339c91",
+        "width": 1500
+      },
+      "original_image": "IMG_9946.JPG",
+      "prepared_image": "bake002-mixing-2026-08-06-04.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake002/bake002-mixing-2026-08-06-04.jpg",
+        "sha256": "dc9bdf27becd9e2e5a5cb5aad910d932019e2f23926780c2bff93ee2500fca23"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The finished dough after mixing.",
+      "capture_date": "2026-08-06",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake002/bake002-mixed-2026-08-06.jpg",
+        "sha256": "7ac90a0bb34e68c5bec5cc6856f417d1a88044bf8aeeb5fa632f4b03a828b11d",
+        "width": 1500
+      },
+      "original_image": "IMG_9947.JPG",
+      "prepared_image": "bake002-mixed-2026-08-06.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake002/bake002-mixed-2026-08-06.jpg",
+        "sha256": "92af2af4c1b73dc647aaa6eae8ecc3c3f122ab58cb6ddb34b6d496a4e8c6d0e0"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The start of bulk fermentation.",
+      "capture_date": "2026-08-06",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake002/bake002-bulk-fermentation-2026-08-06-01.jpg",
+        "sha256": "a70e429d9d1c24c4f09143faf632023e8d43cdef099616684380f473e6c84a90",
+        "width": 1500
+      },
+      "original_image": "IMG_9952.JPG",
+      "prepared_image": "bake002-bulk-fermentation-2026-08-06-01.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake002/bake002-bulk-fermentation-2026-08-06-01.jpg",
+        "sha256": "0525aa190fdcbfc6515d8fa27708f64898437f71fb83e0d6b58ccccd95fe50ca"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The dough after fermentation progress.",
+      "capture_date": "2026-08-06",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake002/bake002-bulk-fermentation-2026-08-06-04.jpg",
+        "sha256": "37aeb721d986b66a98af433f7a8a05e6f7aab084fc88d42798de87b0a2040036",
+        "width": 1500
+      },
+      "original_image": "IMG_9955.JPG",
+      "prepared_image": "bake002-bulk-fermentation-2026-08-06-04.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake002/bake002-bulk-fermentation-2026-08-06-04.jpg",
+        "sha256": "2c1ee06c654a6f0c1c0fd72cdafe64314bc30975a8441e9b930e62edee046b08"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Final proof before the overnight rest.",
+      "capture_date": "2026-08-06",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake002/bake002-final-proof-before-fridge-2026-08-06.jpg",
+        "sha256": "a8f8a32162db08e9c171f0865c2bd3fc0cf85fe4df519a392db9e06b58a92a33",
+        "width": 1500
+      },
+      "original_image": "IMG_9958.JPG",
+      "prepared_image": "bake002-final-proof-before-fridge-2026-08-06.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake002/bake002-final-proof-before-fridge-2026-08-06.jpg",
+        "sha256": "a0712d1b461c2c93ecead80248d2d173d6905c8a9b59b563cf4b68a8a96231bd"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Fresh out of the pan.",
+      "capture_date": "2026-08-07",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake002/baked-out-of-pan-2026-08-07.jpg",
+        "sha256": "b58f729db3f055171187a257ddd348dab49801fc6ed275aacd9ccab29054711f",
+        "width": 1500
+      },
+      "original_image": "IMG_9966.JPG",
+      "prepared_image": "baked-out-of-pan-2026-08-07.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake002/baked-out-of-pan-2026-08-07.jpg",
+        "sha256": "6aabde008949a27e7db541f9c2d02f47c489e0fb491127d76dbfd7182faa2739"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The crumb after cooling.",
+      "capture_date": "2026-08-07",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake002/bake002-crumb-2026-08-07.jpg",
+        "sha256": "30d4ce52d29559b34879f176286810d1700458b3c3fa8a8612f382e89043c225",
+        "width": 1500
+      },
+      "original_image": "IMG_9967.JPG",
+      "prepared_image": "bake002-crumb-2026-08-07.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake002/bake002-crumb-2026-08-07.jpg",
+        "sha256": "a479f8d447eab9353cc887c202ab605b29626f8e7369b06c7233fb494e7e60e8"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    }
+  ],
+  "profile": {
+    "maximum_edge": 2000,
+    "metadata_removed": true,
+    "output_format": "jpg",
+    "quality": 85
+  },
+  "project": "Bread Pitt",
+  "schema_version": 1,
+  "source": "working/media/bakes/2026/bake002",
+  "workflow": "bake002"
+}
