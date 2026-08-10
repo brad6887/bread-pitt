@@ -1,8 +1,7 @@
-cat > docs/planning/BACKLOG.md <<'EOF'
 # Bread Pitt Backlog
 
 <!-- BEGIN GENERATED BACKLOG STATUS -->
-> **Backlog Status:** 11 complete · 5 pending · 16 total
+> **Backlog Status:** 14 complete · 2 pending · 16 total
 <!-- END GENERATED BACKLOG STATUS -->
 
 ## Independent Website
@@ -19,18 +18,18 @@ cat > docs/planning/BACKLOG.md <<'EOF'
 - [x] Publish Bake001 and establish the Bakes section.
 - [x] Cross-link Bake001, the 50/50 White & Whole Wheat recipe, and the Bread
       Pitt starter guide.
-- [ ] Derive recipe-index images automatically from each recipe's featured or
+- [x] Derive recipe-index images automatically from each recipe's featured or
       related bake, while retaining an optional explicit override for recipes
       that need a different crop or image.
-- [ ] Generate bake pages from canonical bake content instead of maintaining
+- [x] Generate bake pages from canonical bake content instead of maintaining
       the narrative separately in `story.md` and hand-written Astro markup.
 
 ## Bake Publishing Workflow
 
 - [x] Generate `media-intake.json` automatically from the editorial selections
       in `photos.yml` and the Abbey rename manifest.
-- [ ] Add reusable scaffolding for a new bake record, including `bake.yml`,
-      `photos.yml`, `story.md`, media directories, and publication paths.
+- [x] Add reusable scaffolding for a new bake record, including `bake.yml`,
+      `photos.yml`, `story.md`, `media-intake.json`, and publication paths.
 
 ## Abbey Portability
 
@@ -44,4 +43,3 @@ cat > docs/planning/BACKLOG.md <<'EOF'
       available.
 - [ ] Record the earlier July starter cycles after the format proves convenient
       during normal use.
-EOF

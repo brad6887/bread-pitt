@@ -1,11 +1,6 @@
 ---
 bake: bake001
-title: "Bread Pitt's First Big Role"
 ---
-
-# Bread Pitt's First Big Role
-
-*Everybody remembers the first loaf... especially the baker.*
 
 Bread Pitt 2.0 had been alive for a few weeks. If you had been following along, congratulations—you were the first.
 
@@ -29,7 +24,7 @@ In case you’re wondering what “rustic” means, it is sometimes just a euphe
 
 The autolyse went exactly as planned. The flour and water came together, then sat quietly while Bread Pitt finished waking up for his big day.
 
-{{ photo-pair: dough-prep }}
+{{ gallery: dough-prep }}
 
 Once the starter and salt went in, Dough Cloony took over.
 
@@ -59,7 +54,7 @@ I hope.
 
 By the end of the first set, though, the dough had already tightened up noticeably.
 
-{{ photo-pair: fold-1 }}
+{{ gallery: fold-1 }}
 
 ### Second fold
 
@@ -69,7 +64,7 @@ The dough stretched farther before resisting and folded back over itself much mo
 
 Instead of fighting me, it was starting to cooperate.
 
-{{ photo-pair: fold-2 }}
+{{ gallery: fold-2 }}
 
 ### Third fold
 
@@ -77,7 +72,7 @@ By the third round, it finally felt like dough instead of a sticky science exper
 
 It stretched nicely before tightening up again, and I could feel the gluten network starting to do its job.
 
-{{ photo-pair: fold-3 }}
+{{ gallery: fold-3 }}
 
 ## The Waiting Game
 

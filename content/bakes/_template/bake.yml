@@ -1,0 +1,33 @@
+schema_version: 1
+
+bake:
+  id: bakeXXX
+  title: ""
+  tagline: ""
+  started: YYYY-MM-DD
+  completed: YYYY-MM-DD
+  status: complete
+  rating:
+  rating_scale: 10
+
+relationships:
+  recipe:
+    slug: ""
+  starter:
+    name: "Bread Pitt 2.0"
+    path: /starter/
+
+result:
+  summary: ""
+  internal_temperature_f:
+
+lessons: []
+
+media:
+  directory: media/bakes/YYYY/bakeXXX
+  photo_manifest: content/bakes/YYYY/bakeXXX/photos.yml
+  hero: hero
+
+publication:
+  route: /bakes/bakeXXX/
+  story: content/bakes/YYYY/bakeXXX/story.md

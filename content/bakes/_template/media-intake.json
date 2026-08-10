@@ -1,0 +1,5 @@
+{
+  "bake": "bakeXXX",
+  "destination": "public/images/bakes/YYYY/bakeXXX",
+  "items": []
+}

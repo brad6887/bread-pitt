@@ -195,6 +195,41 @@ nav a:hover, nav a[aria-current="page"] { border-color: var(--rust); color: var(
   max-width: 900px;
 }
 
+.story-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+  gap: 1.5rem;
+  margin: clamp(2.5rem, 6vw, 5rem) auto;
+  max-width: 900px;
+}
+
+.story-gallery-comparison {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.story-gallery figure { margin: 0; }
+.story-gallery img { display: block; width: 100%; height: auto; }
+.story-gallery figcaption {
+  margin-top: .75rem;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: .8rem;
+}
+
+.bake-navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  margin: clamp(4rem, 8vw, 7rem) 0 2rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--line);
+}
+
+.bake-navigation a { display: grid; gap: .4rem; text-decoration: none; }
+.bake-navigation a:last-child { text-align: right; }
+.bake-navigation span { color: var(--muted); font-family: var(--sans); font-size: .75rem; text-transform: uppercase; letter-spacing: .08em; }
+.bake-navigation strong { font-size: 1.15rem; font-weight: 500; }
+
 .story-image img {
   display: block;
   width: 100%;
@@ -251,6 +286,7 @@ nav a:hover, nav a[aria-current="page"] { border-color: var(--rust); color: var(
   .featured-bake-link {
   grid-template-columns: 1fr;
 }
+  .story-gallery-comparison { grid-template-columns: 1fr; }
 }
 
 @media (prefers-reduced-motion: reduce) {

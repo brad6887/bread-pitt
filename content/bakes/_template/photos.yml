@@ -1,0 +1,26 @@
+schema_version: 1
+
+bake: bakeXXX
+source_directory: working/media/bakes/YYYY/bakeXXX
+rename_manifest: working/media/bakes/YYYY/bakeXXX/.abbey-rename-manifest.json
+
+galleries:
+  example-comparison:
+    layout: comparison
+
+photos:
+  - id: hero
+    prepared_image: bakeXXX-hero-YYYY-MM-DD.jpg
+    caption: "Describe the hero image."
+
+  - id: example-before
+    prepared_image: bakeXXX-example-before-YYYY-MM-DD.jpg
+    caption: "Before."
+    group: example-comparison
+    position: before
+
+  - id: example-after
+    prepared_image: bakeXXX-example-after-YYYY-MM-DD.jpg
+    caption: "After."
+    group: example-comparison
+    position: after

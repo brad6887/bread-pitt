@@ -1,82 +1,60 @@
 ---
 import { marked } from "marked";
+import type { BakeGallery, BakePhoto } from "../../lib/bakes";
 
 interface Props {
   story: string;
-  photoMap: Map<string, any>;
+  photoMap: Map<string, BakePhoto>;
+  galleryMap: Map<string, BakeGallery>;
 }
 
-const { story, photoMap } = Astro.props;
-
+const { story, photoMap, galleryMap } = Astro.props;
 const body = story.replace(/^---[\s\S]*?---\s*/m, "");
-
 const blocks = new Map<string, string>();
 let blockId = 0;
 
+function escapeHtml(value: string) {
+  return value.replace(/[&<>"']/g, (character) => ({
+    "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#039;",
+  })[character] ?? character);
+}
+
 function addBlock(html: string) {
-  const key = `PHOTO_BLOCK_${blockId++}`;
+  const key = `BAKE_MEDIA_BLOCK_${blockId++}`;
   blocks.set(key, html);
   return `\n\n${key}\n\n`;
 }
 
-function renderPhoto(id: string) {
-  const photo = photoMap.get(id.trim());
-
-  if (!photo) {
-    return "";
-  }
-
-  return addBlock(`
-<figure class="story-image">
-  <img src="${photo.src}" alt="${photo.caption}" />
-  <figcaption>${photo.caption}</figcaption>
-</figure>
-`);
+function image(photo: BakePhoto) {
+  return `<img src="${escapeHtml(photo.src)}" alt="${escapeHtml(photo.caption)}" loading="lazy" />`;
 }
 
-function renderPhotoPair(group: string) {
-  const order: Record<string, number> = {
-    before: 0,
-    after: 1,
-  };
+function renderPhoto(id: string) {
+  const photo = photoMap.get(id.trim());
+  if (!photo) return "";
+  return addBlock(`<figure class="story-image">
+    ${image(photo)}
+    <figcaption>${escapeHtml(photo.caption)}</figcaption>
+  </figure>`);
+}
 
-  const photos = [...photoMap.values()]
-    .filter((photo) => photo.group === group.trim())
-    .sort(
-      (a, b) =>
-        (order[a.position ?? ""] ?? 99) -
-        (order[b.position ?? ""] ?? 99),
-    );
-
-  if (photos.length !== 2) {
-    return "";
-  }
-
-  return addBlock(`
-<figure class="story-image-grid">
-  ${photos
-    .map(
-      (photo) =>
-        `<img src="${photo.src}" alt="${photo.caption}" />`,
-    )
-    .join("")}
-</figure>
-`);
+function renderGallery(id: string) {
+  const gallery = galleryMap.get(id.trim());
+  if (!gallery) return "";
+  return addBlock(`<div class="story-gallery story-gallery-${gallery.layout}">
+    ${gallery.photos.map((photo) => `<figure>
+      ${image(photo)}
+      <figcaption>${escapeHtml(photo.caption)}</figcaption>
+    </figure>`).join("")}
+  </div>`);
 }
 
 const processed = body
-  .replace(/\{\{\s*photo:\s*([^}]+)\s*\}\}/g, (_, id) =>
-    renderPhoto(id),
-  )
-  .replace(/\{\{\s*photo-pair:\s*([^}]+)\s*\}\}/g, (_, group) =>
-    renderPhotoPair(group),
-  );
+  .replace(/\{\{\s*photo:\s*([^}]+)\s*\}\}/g, (_, id) => renderPhoto(id))
+  .replace(/\{\{\s*gallery:\s*([^}]+)\s*\}\}/g, (_, id) => renderGallery(id));
 
 let html = await marked(processed);
-
-for (const [key, value] of blocks) {
-  html = html.replace(`<p>${key}</p>`, value.trim());
-}
+for (const [key, value] of blocks) html = html.replace(`<p>${key}</p>`, value);
 ---
 
 <div class="story-content" set:html={html} />

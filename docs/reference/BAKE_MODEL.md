@@ -87,9 +87,7 @@ title, bake route, and representative image should be resolved from canonical
 records rather than maintained as reciprocal copies.
 
 The hero is owned only by `bake.yml`. It must reference a photo ID declared in
-`photos.yml`. The current duplicate `hero` field in Bake001's `photos.yml` is a
-migration artifact and should be removed after the renderer and validator use
-this contract.
+`photos.yml`.
 
 ### `story.md`
 
@@ -100,17 +98,16 @@ The story references photos by stable photo ID:
 
 ```text
 {{ photo: final-loaf }}
-{{ photo-pair: fold-1 }}
+{{ gallery: fold-1 }}
 ```
 
-A `photo` directive must resolve to exactly one `photos.yml` entry. A
-`photo-pair` directive must resolve to exactly two entries in the named group
-with unique `before` and `after` positions.
+A `photo` directive must resolve to exactly one `photos.yml` entry. A `gallery`
+directive resolves the entries in a named group. Gallery layout is configured
+in `photos.yml`; a comparison layout requires exactly two entries, while a grid
+may contain any number of entries.
 
 Story front matter identifies the owning bake. Title and tagline belong in
-`bake.yml`; the renderer supplies them to the page. Bake001 currently repeats
-the title and top-level heading in `story.md`; that duplication should be
-removed during renderer migration.
+`bake.yml`; the renderer supplies them to the page.
 
 ### `photos.yml`
 
@@ -192,22 +189,10 @@ No canonical file should reference a public derivative path directly.
 
 ## Bake001 Inventory
 
-Bake001 proved the complete pipeline but contains these temporary duplications:
-
-- The hero ID exists in both `bake.yml` and `photos.yml`.
-- The title exists in `bake.yml`, `story.md` front matter, the story heading,
-  the bake index, recipe data, and the Astro page.
-- The recipe title and path exist in `bake.yml` while the recipe record contains
-  a hand-authored reciprocal featured-bake object.
-- The narrative and every photo placement are copied into a hand-written Astro
-  page.
-- Public image paths are reconstructed in Astro and recipe data rather than
-  resolved from the publication manifest.
-- `media-intake.json` repeats data derivable from `photos.yml` and the rename
-  manifest.
-- The bake index is hand-authored rather than generated from bake records.
-
-These are migration targets, not accepted features of the Bake002 model.
+Bake001 now uses the canonical renderer, generated index, recipe relationship,
+publication-manifest image resolution, and generic gallery directives. Its
+`media-intake.json` remains a generated artifact derived from `photos.yml` and
+the rename manifest.
 
 ## Validation Contract
 
@@ -220,7 +205,7 @@ A complete bake validator should eventually verify:
 - Existing recipe and starter relationships.
 - Unique photo IDs and prepared filenames.
 - Existing prepared media and unique rename-manifest mappings.
-- Valid story photo and photo-pair directives.
+- Valid story photo and gallery directives.
 - A hero photo ID that resolves to one selected photo.
 - Fresh intake generation.
 - Publication-manifest ownership, source integrity, derivative existence, and

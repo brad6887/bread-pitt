@@ -1,5 +1,8 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { loadBakes } from "../../lib/bakes";
+
+const bakes = (await loadBakes()).reverse();
 ---
 
 <BaseLayout
@@ -15,17 +18,19 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
   </section>
 
   <section class="recipe-index wrap" aria-label="Bake collection">
-    <article class="recipe-card">
-      <a href="/bakes/bake001-first-big-role/" aria-label="Open Bread Pitt's First Big Role">
-        <span class="card-number">001</span>
-        <div>
-          <p class="card-kind">50/50 White & Whole Wheat Sourdough</p>
-          <h2>Bread Pitt's First Big Role</h2>
-          <p class="card-subtitle">July 29–30, 2026</p>
-          <p class="card-meta">8/10 thumbs up</p>
-        </div>
-        <span class="card-arrow" aria-hidden="true">↗</span>
-      </a>
-    </article>
+    {bakes.map((bake) => (
+      <article class="recipe-card">
+        <a href={bake.route} aria-label={`Open ${bake.title}`}>
+          <span class="card-number">{bake.id.replace(/^bake/i, "").padStart(3, "0")}</span>
+          <div>
+            <p class="card-kind">{bake.recipe.title}</p>
+            <h2>{bake.title}</h2>
+            <p class="card-subtitle">{bake.dateRange}</p>
+            {bake.rating && <p class="card-meta">{bake.rating}</p>}
+          </div>
+          <span class="card-arrow" aria-hidden="true">↗</span>
+        </a>
+      </article>
+    ))}
   </section>
 </BaseLayout>

@@ -1,0 +1,16 @@
+---
+import BakePage from "../../components/bakes/BakePage.astro";
+import { loadBakes } from "../../lib/bakes";
+
+export async function getStaticPaths() {
+  const bakes = await loadBakes();
+  return bakes.map((bake) => ({
+    params: { id: bake.route.split("/").filter(Boolean).at(-1) },
+    props: { bake },
+  }));
+}
+
+const { bake } = Astro.props;
+---
+
+<BakePage bake={bake} />

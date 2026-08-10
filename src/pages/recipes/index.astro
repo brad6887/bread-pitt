@@ -1,6 +1,9 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getRecipeIndexImage, recipes } from "../../data/recipes";
+import { loadBakes } from "../../lib/bakes";
+
+const bakes = await loadBakes();
 ---
 
 <BaseLayout title="Recipes" description="The complete Bread Pitt recipe collection: sourdough loaves, pizza, pitas, rolls, cookies, pancakes, and more.">
@@ -12,7 +15,10 @@ import { getRecipeIndexImage, recipes } from "../../data/recipes";
 
   <section class="recipe-index wrap" aria-label="Recipe collection">
     {recipes.map((recipe, index) => {
-      const indexImage = getRecipeIndexImage(recipe);
+      const relatedBake = bakes.filter((bake) => bake.recipe.slug === recipe.slug).at(-1);
+      const indexImage = getRecipeIndexImage(recipe) ?? (relatedBake
+        ? { src: relatedBake.hero.src, alt: relatedBake.hero.caption }
+        : undefined);
 
       return <article class="recipe-card">
         <a href={`/recipes/${recipe.slug}/`} aria-label={`Open ${recipe.title}`}>

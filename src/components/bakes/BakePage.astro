@@ -1,9 +1,10 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import BakeStory from "./BakeStory.astro";
+import type { LoadedBake } from "../../lib/bakes";
 
 interface Props {
-  bake: any;
+  bake: LoadedBake;
 }
 
 const { bake } = Astro.props;
@@ -14,6 +15,11 @@ const hero = bake.hero;
 <BaseLayout
   title={bake.title}
   description={bake.tagline}
+  article={{
+    publishedTime: bake.completed,
+    section: "Bakes",
+    tags: [bake.recipe.title, bake.starter.name],
+  }}
 >
   <article class="story-page wrap">
     <a class="back-link" href="/bakes/">
@@ -74,6 +80,24 @@ const hero = bake.hero;
     <BakeStory
       story={bake.story}
       photoMap={bake.photoMap}
+      galleryMap={bake.galleryMap}
     />
+
+    {(bake.previous || bake.next) && (
+      <nav class="bake-navigation" aria-label="Bake navigation">
+        {bake.previous ? (
+          <a href={bake.previous.route} rel="prev">
+            <span>← Previous bake</span>
+            <strong>{bake.previous.title}</strong>
+          </a>
+        ) : <span />}
+        {bake.next && (
+          <a href={bake.next.route} rel="next">
+            <span>Next bake →</span>
+            <strong>{bake.next.title}</strong>
+          </a>
+        )}
+      </nav>
+    )}
   </article>
 </BaseLayout>

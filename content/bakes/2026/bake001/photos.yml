@@ -4,7 +4,15 @@ bake: bake001
 source_directory: working/media/bakes/2026/bake001
 rename_manifest: working/media/bakes/2026/bake001/.abbey-rename-manifest.json
 
-hero: final-loaf
+galleries:
+  dough-prep:
+    layout: comparison
+  fold-1:
+    layout: comparison
+  fold-2:
+    layout: comparison
+  fold-3:
+    layout: comparison
 
 photos:
   - id: starter-ready

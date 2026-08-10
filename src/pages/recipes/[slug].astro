@@ -1,12 +1,14 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { recipes } from "../../data/recipes";
+import { getBakesForRecipe } from "../../lib/bakes";
 
 export function getStaticPaths() {
   return recipes.map((recipe) => ({ params: { slug: recipe.slug }, props: { recipe } }));
 }
 
 const { recipe } = Astro.props;
+const relatedBakes = await getBakesForRecipe(recipe.slug);
 ---
 
 <BaseLayout title={recipe.title} description={`${recipe.title}: ingredients, method, notes, and success cues from Bread Pitt.`}>
@@ -21,23 +23,19 @@ const { recipe } = Astro.props;
       </dl>
     </header>
 
-{recipe.featuredBake && (
+{relatedBakes.length > 0 && (
   <section class="featured-bake">
-    <p class="eyebrow">Featured bake</p>
-
-    <a href={recipe.featuredBake.path} class="featured-bake-link">
-      <img
-        src={recipe.featuredBake.image}
-        alt={recipe.featuredBake.alt}
-      />
-      <div>
-        <h2>{recipe.featuredBake.title}</h2>
-        <p>{recipe.featuredBake.description}</p>
-        <span class="text-link">
-          Read the bake story <span aria-hidden="true">→</span>
-        </span>
-      </div>
-    </a>
+    <p class="eyebrow">Bakes using this recipe</p>
+    {relatedBakes.map((bake) => (
+      <a href={bake.route} class="featured-bake-link">
+        <img src={bake.hero.src} alt={bake.hero.caption} />
+        <div>
+          <h2>{bake.title}</h2>
+          <p>{bake.summary ?? bake.tagline}</p>
+          <span class="text-link">Read the bake story <span aria-hidden="true">→</span></span>
+        </div>
+      </a>
+    ))}
   </section>
 )}
     <div class="recipe-body">
