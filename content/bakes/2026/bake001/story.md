@@ -29,7 +29,7 @@ In case you’re wondering what “rustic” means, it is sometimes just a euphe
 
 The autolyse went exactly as planned. The flour and water came together, then sat quietly while Bread Pitt finished waking up for his big day.
 
-{{ photo: autolyse }}
+{{ photo-pair: dough-prep }}
 
 Once the starter and salt went in, Dough Cloony took over.
 

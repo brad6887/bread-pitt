@@ -1,0 +1,82 @@
+---
+import { marked } from "marked";
+
+interface Props {
+  story: string;
+  photoMap: Map<string, any>;
+}
+
+const { story, photoMap } = Astro.props;
+
+const body = story.replace(/^---[\s\S]*?---\s*/m, "");
+
+const blocks = new Map<string, string>();
+let blockId = 0;
+
+function addBlock(html: string) {
+  const key = `PHOTO_BLOCK_${blockId++}`;
+  blocks.set(key, html);
+  return `\n\n${key}\n\n`;
+}
+
+function renderPhoto(id: string) {
+  const photo = photoMap.get(id.trim());
+
+  if (!photo) {
+    return "";
+  }
+
+  return addBlock(`
+<figure class="story-image">
+  <img src="${photo.src}" alt="${photo.caption}" />
+  <figcaption>${photo.caption}</figcaption>
+</figure>
+`);
+}
+
+function renderPhotoPair(group: string) {
+  const order: Record<string, number> = {
+    before: 0,
+    after: 1,
+  };
+
+  const photos = [...photoMap.values()]
+    .filter((photo) => photo.group === group.trim())
+    .sort(
+      (a, b) =>
+        (order[a.position ?? ""] ?? 99) -
+        (order[b.position ?? ""] ?? 99),
+    );
+
+  if (photos.length !== 2) {
+    return "";
+  }
+
+  return addBlock(`
+<figure class="story-image-grid">
+  ${photos
+    .map(
+      (photo) =>
+        `<img src="${photo.src}" alt="${photo.caption}" />`,
+    )
+    .join("")}
+</figure>
+`);
+}
+
+const processed = body
+  .replace(/\{\{\s*photo:\s*([^}]+)\s*\}\}/g, (_, id) =>
+    renderPhoto(id),
+  )
+  .replace(/\{\{\s*photo-pair:\s*([^}]+)\s*\}\}/g, (_, group) =>
+    renderPhotoPair(group),
+  );
+
+let html = await marked(processed);
+
+for (const [key, value] of blocks) {
+  html = html.replace(`<p>${key}</p>`, value.trim());
+}
+---
+
+<div class="story-content" set:html={html} />

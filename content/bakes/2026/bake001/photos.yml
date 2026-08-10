@@ -14,14 +14,18 @@ photos:
   - id: dough-cloony
     prepared_image: bake001-mixer-dough-cloony-2026-07-29.jpg
     caption: "Dough Cloony reporting for duty."
-
-  - id: flour
-    prepared_image: bake001-ingredients-flour-2026-07-29.jpg
-    caption: "Bread flour and whole wheat flour for the 50/50 loaf."
+    group: dough-prep
+    position: before
 
   - id: autolyse
     prepared_image: bake001-autolyze-2026-07-29.jpg
     caption: "Flour and water at the start of the autolyse."
+    group: dough-prep
+    position: after
+
+  - id: flour
+    prepared_image: bake001-ingredients-flour-2026-07-29.jpg
+    caption: "Bread flour and whole wheat flour for the 50/50 loaf."
 
   - id: starter-before-mix
     prepared_image: bake001-starter-just-before-mix-2026-07-29.jpg

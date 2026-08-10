@@ -1,0 +1,79 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import BakeStory from "./BakeStory.astro";
+
+interface Props {
+  bake: any;
+}
+
+const { bake } = Astro.props;
+
+const hero = bake.hero;
+---
+
+<BaseLayout
+  title={bake.title}
+  description={bake.tagline}
+>
+  <article class="story-page wrap">
+    <a class="back-link" href="/bakes/">
+      <span aria-hidden="true">←</span> All bakes
+    </a>
+
+    <header class="story-header">
+      <p class="eyebrow">
+        {bake.id.toUpperCase()} · {bake.dateRange}
+      </p>
+
+      <h1>{bake.title}</h1>
+
+      <p class="story-intro">
+        {bake.tagline}
+      </p>
+
+      <dl class="meta-list">
+        <div>
+          <dt>Recipe</dt>
+          <dd>
+            <a href={bake.recipe.path}>
+              {bake.recipe.title}
+            </a>
+          </dd>
+        </div>
+
+        <div>
+          <dt>Starter</dt>
+          <dd>
+            <a href={bake.starter.path}>
+              {bake.starter.name}
+            </a>
+          </dd>
+        </div>
+
+        <div>
+          <dt>Rating</dt>
+          <dd>{bake.rating}</dd>
+        </div>
+
+        {bake.temperature && (
+          <div>
+            <dt>Finished temp</dt>
+            <dd>{bake.temperature}</dd>
+          </div>
+        )}
+      </dl>
+    </header>
+
+    {hero && (
+      <figure class="story-image story-image-feature">
+        <img src={hero.src} alt={hero.caption} />
+        <figcaption>{hero.caption}</figcaption>
+      </figure>
+    )}
+
+    <BakeStory
+      story={bake.story}
+      photoMap={bake.photoMap}
+    />
+  </article>
+</BaseLayout>
