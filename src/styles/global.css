@@ -270,6 +270,144 @@ nav a:hover, nav a[aria-current="page"] { border-color: var(--rust); color: var(
 .site-footer p { margin: 0; }
 .site-footer a { color: var(--rust); font-weight: 700; }
 
+.contact-hero {
+  min-height: calc(100vh - 88px);
+  padding: clamp(4rem, 9vw, 7rem) 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(300px, .9fr);
+  align-items: center;
+  gap: clamp(3rem, 7vw, 7rem);
+}
+
+.contact-copy { position: relative; z-index: 1; }
+
+.contact-copy h1 {
+  margin: 0;
+  font-size: clamp(4.5rem, 9vw, 8rem);
+  font-weight: 500;
+  letter-spacing: -.065em;
+  line-height: .86;
+}
+
+.contact-copy h1 em { display: block; color: var(--rust); font-weight: 400; }
+
+.contact-welcome {
+  max-width: 38rem;
+  margin: 2.25rem 0 2rem;
+  font-size: clamp(1.15rem, 2vw, 1.35rem);
+  line-height: 1.55;
+}
+
+.contact-email {
+  width: min(100%, 31rem);
+  padding: .85rem .9rem .85rem 1.35rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem;
+  border: 1px solid var(--ink);
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--paper-light);
+  font-family: var(--sans);
+  font-size: clamp(.86rem, 1.7vw, 1rem);
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform .2s ease, background-color .2s ease, border-color .2s ease;
+}
+
+.contact-email:hover { transform: translateY(-3px); background: var(--rust); border-color: var(--rust); }
+.contact-email:focus-visible { outline: 3px solid #d69a53; outline-offset: 4px; }
+
+.contact-arrow {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: grid;
+  place-items: center;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  background: var(--paper);
+  color: var(--ink);
+  font-size: 1.3rem;
+}
+
+.contact-note {
+  margin: 1rem 0 0 1.35rem;
+  color: var(--muted);
+  font-family: var(--sans);
+  font-size: .66rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.contact-art { position: relative; height: min(44vw, 540px); min-height: 380px; }
+
+.contact-sun {
+  position: absolute;
+  width: min(33vw, 390px);
+  aspect-ratio: 1;
+  left: 50%;
+  top: 48%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: #d69a53;
+}
+
+.contact-loaf {
+  position: absolute;
+  width: min(29vw, 350px);
+  height: min(37vw, 440px);
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(8deg);
+  overflow: hidden;
+  border: 3px solid var(--ink);
+  border-radius: 49% 51% 43% 45% / 38% 42% 56% 60%;
+  background: #c97938;
+  box-shadow: inset -22px -20px 0 rgba(97, 47, 25, .18);
+}
+
+.contact-loaf::after {
+  content: "";
+  position: absolute;
+  inset: 14px;
+  border: 2px dashed rgba(48, 37, 29, .28);
+  border-radius: inherit;
+}
+
+.contact-score {
+  position: absolute;
+  z-index: 2;
+  width: 70%;
+  height: 15%;
+  left: 4%;
+  transform: rotate(-28deg);
+  border-radius: 50%;
+  border-bottom: 11px solid #ecc27a;
+}
+
+.contact-score-one { top: 21%; }
+.contact-score-two { top: 41%; }
+.contact-score-three { top: 61%; }
+
+.contact-loaf-shadow {
+  position: absolute;
+  width: 72%;
+  height: 10%;
+  left: 52%;
+  bottom: 0;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background: rgba(48, 37, 29, .16);
+  filter: blur(3px);
+}
+
+.contact-crumb { position: absolute; border: 2px solid var(--ink); background: #c97938; border-radius: 50%; }
+.contact-crumb-one { width: 18px; height: 14px; left: 4%; top: 23%; transform: rotate(20deg); }
+.contact-crumb-two { width: 11px; height: 9px; right: 3%; top: 42%; }
+.contact-crumb-three { width: 14px; height: 10px; left: 10%; bottom: 14%; transform: rotate(-24deg); }
+
 @media (max-width: 760px) {
   .wrap, .site-header { width: min(100% - 2rem, 1180px); }
   .site-header { min-height: 72px; }
@@ -287,8 +425,21 @@ nav a:hover, nav a[aria-current="page"] { border-color: var(--rust); color: var(
   grid-template-columns: 1fr;
 }
   .story-gallery-comparison { grid-template-columns: 1fr; }
+  .contact-hero { min-height: auto; grid-template-columns: 1fr; padding: 3.5rem 0 5rem; }
+  .contact-art { order: -1; height: 290px; min-height: 0; }
+  .contact-sun { width: 260px; }
+  .contact-loaf { width: 225px; height: 280px; }
+  .contact-copy h1 { font-size: clamp(3.7rem, 17vw, 6.2rem); }
+}
+
+@media (max-width: 520px) {
+  .contact-art { height: 245px; }
+  .contact-sun { width: 215px; }
+  .contact-loaf { width: 188px; height: 235px; }
+  .contact-email { padding: .7rem .7rem .7rem 1rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
+  .contact-email { transition: none; }
 }

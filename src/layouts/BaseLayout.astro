@@ -47,6 +47,7 @@ const pageTitle = title === "Bread Pitt" ? title : `${title} · Bread Pitt`;
         <a href="/recipes/" aria-current={Astro.url.pathname.startsWith("/recipes") ? "page" : undefined}>Recipes</a>
         <a href="/bakes/" aria-current={Astro.url.pathname.startsWith("/bakes") ? "page" : undefined}>Bakes</a>
         <a href="/starter/" aria-current={Astro.url.pathname.startsWith("/starter") ? "page" : undefined}>Starter</a>
+        <a href="/contact/" aria-current={Astro.url.pathname.startsWith("/contact") ? "page" : undefined}>Contact</a>
       </nav>
     </header>
     <main id="content">
@@ -54,7 +55,7 @@ const pageTitle = title === "Bread Pitt" ? title : `${title} · Bread Pitt`;
     </main>
     <footer class="site-footer">
       <p>Made with flour, patience, and a starter named Bread Pitt.</p>
-      <a href="/recipes/">Browse all recipes</a>
+      <a href="mailto:hello@breadpitt.net">hello@breadpitt.net</a>
     </footer>
   </body>
 </html>
