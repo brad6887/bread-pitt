@@ -1,0 +1,84 @@
+{
+  "configuration": ".abbey/media.yml",
+  "configuration_source": "active project",
+  "destination": "public/images/starter-cycles",
+  "intake_manifest": "media/prepared/starter-cycle-pilot/intake.json",
+  "items": [
+    {
+      "caption": "Brad Pitt starter cycle on July 27",
+      "capture_date": "2026-07-27",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/starter-cycles/starter-cycle-2026-07-27.jpg",
+        "sha256": "d47273e3ab84a9b9056d5703e487ecf5340f81cedea52db0efc6a7c631238430",
+        "width": 1500
+      },
+      "original_image": "IMG_9789.JPG",
+      "prepared_image": "starter-cycle-2026-07-27.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "media/prepared/starter-cycle-pilot/starter-cycle-2026-07-27.jpg",
+        "sha256": "ef193b23209d439749a56c48c957e61514cd92c672db4811534f99eedbb298e7"
+      },
+      "tools": {
+        "exiftool": "13.55",
+        "imagemagick": "Version: ImageMagick 7.1.2-29 Q16-HDRI aarch64 b919b37fd:20260727 https://imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Brad Pitt starter cycle on July 28",
+      "capture_date": "2026-07-28",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/starter-cycles/starter-cycle-2026-07-28.jpg",
+        "sha256": "87c3f745275683289c3f73b04d6ce494670d34fa7c02d105a2d19ab243231837",
+        "width": 1500
+      },
+      "original_image": "IMG_9800.JPG",
+      "prepared_image": "starter-cycle-2026-07-28.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "media/prepared/starter-cycle-pilot/starter-cycle-2026-07-28.jpg",
+        "sha256": "f768afbc8c24f899293897376934aaa4caa229f251840372a6e44496fc29fdb5"
+      },
+      "tools": {
+        "exiftool": "13.55",
+        "imagemagick": "Version: ImageMagick 7.1.2-29 Q16-HDRI aarch64 b919b37fd:20260727 https://imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    }
+  ],
+  "profile": {
+    "maximum_edge": 2000,
+    "metadata_removed": true,
+    "output_format": "jpg",
+    "quality": 85
+  },
+  "project": "Bread Pitt",
+  "schema_version": 1,
+  "source": "media/prepared/starter-cycle-pilot",
+  "workflow": "starter_cycle_pilot"
+}

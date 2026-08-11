@@ -1,6 +1,6 @@
 # Bread Pitt Project Status
 
-Last Updated: 2026-08-08
+Last Updated: 2026-08-11
 
 ## Project Snapshot
 
@@ -28,8 +28,9 @@ Track Bread Pitt's starter history, recipes, bakes, observations, and lessons le
 - The starter story is published with optimized public images and is linked
   from the site navigation.
 - Project-owned Abbey configuration validates the Astro output and requires the
-  `/`, `/recipes/`, and `/starter/` routes while media manifests fail closed
-  until a deterministic publication workflow is configured.
+  configured site routes. Registered Bake001 and starter-cycle publication
+  manifests fail closed on missing or changed sources, derivatives,
+  fingerprints, dimensions, transformations, or privacy results.
 - Bake media intake manifests are generated deterministically from canonical
   `photos.yml` selection and Abbey rename provenance; project validation
   detects stale intake before building the site.

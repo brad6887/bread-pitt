@@ -1,7 +1,7 @@
 # Bread Pitt Backlog
 
 <!-- BEGIN GENERATED BACKLOG STATUS -->
-> **Backlog Status:** 14 complete · 2 pending · 16 total
+> **Backlog Status:** 16 complete · 1 pending · 17 total
 <!-- END GENERATED BACKLOG STATUS -->
 
 ## Independent Website
@@ -36,10 +36,15 @@
 - [x] Adopt project-owned Astro site and required-route validation.
 - [x] Configure and validate the first project-owned manifest-backed media
       publication workflow using Bake001 photographs.
+- [x] Configure a named Bread Pitt starter media preparation and publication
+      workflow, process one bounded starter image batch through it, add its
+      deterministic publication manifest to site validation, and verify the
+      generated derivatives.
 
 ## Starter Records
 
-- [ ] Import the July 27–28 starter photographs when the original files are
-      available.
-- [ ] Record the earlier July starter cycles after the format proves convenient
+- [ ] Associate the imported July 27 and July 28 photographs with their
+      canonical starter-cycle records, organize them under dated media
+      directories, and update `media_status`.
+- [x] Record the earlier July starter cycles after the format proves convenient
       during normal use.

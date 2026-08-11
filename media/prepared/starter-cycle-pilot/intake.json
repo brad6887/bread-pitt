@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "caption": "Brad Pitt starter cycle on July 27",
+      "capture_date": "2026-07-27",
+      "original_image": "IMG_9789.JPG",
+      "published_image": "starter-cycle-2026-07-27.jpg"
+    },
+    {
+      "caption": "Brad Pitt starter cycle on July 28",
+      "capture_date": "2026-07-28",
+      "original_image": "IMG_9800.JPG",
+      "published_image": "starter-cycle-2026-07-28.jpg"
+    }
+  ]
+}

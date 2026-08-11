@@ -31,7 +31,8 @@ site:
   validation:
     public_root: public
     media_manifests:
-      - content/bakes/2026/bake001/media-publication.json      
+      - content/bakes/2026/bake001/media-publication.json
+      - generated/media/starter-cycle-pilot.json
     required_routes:
       - /
       - /recipes/
