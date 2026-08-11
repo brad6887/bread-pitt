@@ -1,4 +1,21 @@
 schema_version: 1
 
-rename_exports: {}
-publish: {}
+rename_exports:
+  caption_tag: XMP-dc:Description
+  date_tag: DateTimeOriginal
+  filename_template: "{caption_slug}-{capture_date}{sequence}"
+  manifest: .abbey-rename-manifest.json
+  extensions:
+    - .jpg
+    - .jpeg
+    - .png
+
+publish:
+  starter_cycle_pilot:
+    source: media/prepared/starter-cycle-pilot
+    destination: public/images/starter-cycles
+    intake_manifest: media/prepared/starter-cycle-pilot/intake.json
+    manifest: generated/media/starter-cycle-pilot.json
+    output_format: jpg
+    max_edge: 2000
+    quality: 85

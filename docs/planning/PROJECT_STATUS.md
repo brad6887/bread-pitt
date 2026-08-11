@@ -1,6 +1,6 @@
 # Bread Pitt Project Status
 
-Last Updated: 2026-08-08
+Last Updated: 2026-08-11
 
 ## Project Snapshot
 
@@ -28,17 +28,20 @@ Track Bread Pitt's starter history, recipes, bakes, observations, and lessons le
 - The starter story is published with optimized public images and is linked
   from the site navigation.
 - Project-owned Abbey configuration validates the Astro output and requires the
-  `/`, `/recipes/`, and `/starter/` routes while media manifests fail closed
-  until a deterministic publication workflow is configured.
+  `/`, `/recipes/`, and `/starter/` routes. The named starter-cycle media
+  workflow produces deterministic privacy-safe derivatives, and site
+  validation verifies their publication manifest, fingerprints, dimensions,
+  transformations, and privacy results.
 
 ## Current Session
 
 ### Completed
 
-Adopted Abbey's project-aware site validation contract for the current Astro
-artifact without changing Bread Pitt's GitHub Pages deployment model. Toolkit
-defaults remain disabled, the main generated routes are required, and no
-placeholder media provenance or Abbey deployment target was introduced.
+Completed the first manifest-backed starter-media pilot using the July 27 and
+July 28 photographs. The project-owned workflow preserves canonical sources,
+generates privacy-safe public derivatives transactionally, records
+deterministic provenance, and makes the resulting manifest a required site
+validation gate without changing Bread Pitt's GitHub Pages deployment model.
 
 ## Suggested Next Step
 

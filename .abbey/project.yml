@@ -29,7 +29,8 @@ site:
     output: dist
   validation:
     public_root: public
-    media_manifests: []
+    media_manifests:
+      - generated/media/starter-cycle-pilot.json
     required_routes:
       - /
       - /recipes/

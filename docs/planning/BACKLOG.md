@@ -1,7 +1,7 @@
 # Bread Pitt Backlog
 
 <!-- BEGIN GENERATED BACKLOG STATUS -->
-> **Backlog Status:** 7 complete · 3 pending · 10 total
+> **Backlog Status:** 9 complete · 1 pending · 10 total
 <!-- END GENERATED BACKLOG STATUS -->
 
 ## Independent Website
@@ -19,12 +19,15 @@
 ## Abbey Portability
 
 - [x] Adopt project-owned Astro site and required-route validation.
-- [ ] Configure the first media preparation and publication workflow when real
-      starter photographs are ready for manifest-backed publication.
+- [x] Configure a named Bread Pitt starter media preparation and publication
+      workflow, process one bounded starter image batch through it, add its
+      deterministic publication manifest to site validation, and verify the
+      generated derivatives.
 
 ## Starter Records
 
-- [ ] Import the July 27–28 starter photographs when the original files are
-      available.
-- [ ] Record the earlier July starter cycles after the format proves convenient
+- [ ] Associate the imported July 27 and July 28 photographs with their
+      canonical starter-cycle records, organize them under dated media
+      directories, and update `media_status`.
+- [x] Record the earlier July starter cycles after the format proves convenient
       during normal use.
