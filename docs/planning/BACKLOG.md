@@ -1,7 +1,7 @@
 # Bread Pitt Backlog
 
 <!-- BEGIN GENERATED BACKLOG STATUS -->
-> **Backlog Status:** 16 complete · 1 pending · 17 total
+> **Backlog Status:** 18 complete · 2 pending · 20 total
 <!-- END GENERATED BACKLOG STATUS -->
 
 ## Independent Website
@@ -11,6 +11,10 @@
 - [x] Configure the apex and optional `www` DNS records for GitHub Pages.
 - [x] Enable HTTPS after GitHub provisions the domain certificate.
 - [x] Verify the Pages deployment and public site at `https://breadpitt.net`.
+- [x] Publish the shared Umami analytics safeguard that accepts only the public
+      `breadpitt.net` hostnames and excludes internal staging traffic.
+- [x] Configure and validate the fail-closed Abbey `ssh-release` deployment
+      workflow for Bread Pitt's internal `sites01` target.
 
 ## Site Content
 
@@ -23,6 +27,7 @@
       that need a different crop or image.
 - [x] Generate bake pages from canonical bake content instead of maintaining
       the narrative separately in `story.md` and hand-written Astro markup.
+- [ ] Document Bread Pitt's baking equipment and setup.
 
 ## Bake Publishing Workflow
 

@@ -3,7 +3,7 @@ title: "Publish Bake001 workflow"
 description: "Built and validated the complete workflow for publishing a Bread Pitt bake, including media processing, structured content, and site integration."
 date: 2026-08-08
 status: complete
-reviewed: false
+reviewed: true
 session: publish-bake001-workflow
 tags:
   - Bread Pitt

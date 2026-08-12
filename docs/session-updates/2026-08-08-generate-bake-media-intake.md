@@ -3,7 +3,7 @@ title: "Generate bake media intake"
 description: "Added deterministic, freshness-checkable intake generation from canonical photo selection and Abbey rename provenance."
 date: 2026-08-08
 status: complete
-reviewed: false
+reviewed: true
 session: generate-bake-media-intake
 tags:
   - Bread Pitt

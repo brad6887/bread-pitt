@@ -3,7 +3,7 @@ title: "Define canonical bake model"
 description: "Established authoritative content, media, relationship, and generated-artifact boundaries before Bake002."
 date: 2026-08-08
 status: complete
-reviewed: false
+reviewed: true
 session: define-canonical-bake-model
 tags:
   - Bread Pitt

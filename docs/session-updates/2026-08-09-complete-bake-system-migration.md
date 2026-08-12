@@ -3,7 +3,7 @@ title: "Complete bake system migration"
 description: "Migrated Bake001 to canonical rendering, hardened bake validation, generalized galleries, derived recipe relationships, and prepared the Bake002 scaffold."
 date: 2026-08-09
 status: complete
-reviewed: false
+reviewed: true
 session: complete-bake-system-migration
 tags:
   - Bread Pitt

@@ -1,30 +1,36 @@
 # Bread Pitt Next
 
-Last Reviewed: 2026-08-08
+Last Reviewed: 2026-08-12
 
 ## Current Theme
 
-Bake002 Publishing Readiness
+Bake002 Publishing
 
 ## Primary Objective
 
-Remove the duplicated authoring and preventable manual work discovered while
-publishing Bake001 before creating Bake002.
+Publish Bake002 through the established canonical content, media intake,
+publication, story, and build workflow without adding bake-specific site code.
 
 ## Success Criteria
 
-The pre-Bake002 workflow is ready when:
+Bake002 is ready to publish when:
 
-- Every bake fact and relationship has one documented authoritative source.
-- `photos.yml` and the Abbey rename manifest generate `media-intake.json`
-  deterministically.
-- `bake.yml` and `story.md` render bake pages through shared Astro code.
-- One Bread Pitt command validates the complete bake model.
-- A safe scaffold creates the canonical starting workspace for Bake002.
-- `abbey site restart` reliably restarts the active project's development
+- The reusable scaffold is copied into a real Bake002 workspace.
+- Real Bake002 metadata, recipe and starter relationships, photo selections,
+  gallery configuration, and narrative are complete in canonical records.
+- Abbey intake and media publication produce current, validated manifests and
+  privacy-safe derivatives.
+- The shared renderer builds the Bake002 route, bake-index entry, recipe
+  relationship, galleries, and navigation without bake-specific Astro code.
+- Project validation reports no content, relationship, route, or media errors.
+- The completed site is reviewed and published through the approved workflow.
+
+Independently unfinished workflow improvements remain:
+
+- Provide one Bread Pitt command that validates the complete bake model.
+- Make `abbey site restart` reliably restart the active project's development
   server.
-- Bake001 remains buildable and visually correct after migration.
-- The proven workflow is captured in a Bread Pitt runbook.
+- Capture the proven end-to-end workflow in a Bread Pitt runbook.
 
 ## Current Priorities
 
@@ -37,14 +43,25 @@ The pre-Bake002 workflow is ready when:
 - Generate `media-intake.json` deterministically from `photos.yml` and the
   Abbey rename manifest.
 - Validate intake freshness during the standard project workflow.
+- Build the shared canonical bake loader and renderer.
+- Render Bake001 through shared Astro code while preserving its route and
+  visual presentation.
+- Generate the bake index, recipe relationships, and recipe-index photography
+  from canonical bake records.
+- Add bake-specific metadata, relationship, route, photo, gallery, and
+  publication validation.
+- Add configurable captioned galleries and previous/next bake navigation.
+- Provide the reusable Bake002 content scaffold.
 
-### Current Phase — Canonical Bake Renderer
+### Current Phase - Bake002 Content and Publication
 
-- Build one shared loader for bake metadata, narrative, photo metadata,
-  recipes, and publication provenance.
-- Render Bake001 through shared Astro code without copying narrative content.
-- Derive the bake index and recipe backlink from canonical bake records.
-- Preserve Bake001's current route and visual presentation.
+- Copy `content/bakes/_template` into the real Bake002 workspace when its facts
+  and media are ready.
+- Complete canonical metadata, photo selection, galleries, and story content.
+- Run the Abbey intake and publication workflow.
+- Build and validate the site, resolving content-specific failures before
+  publication.
+- Review and publish Bake002.
 
 ## Future Direction
 

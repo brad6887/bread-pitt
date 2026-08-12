@@ -3,7 +3,7 @@ title: "publish bread pitt starter page"
 description: "Created the first full Bread Pitt story page documenting the rebuild of Bread Pitt 2.0 from a lost starter through the first successful loaf."
 date: 2026-08-08
 status: complete
-reviewed: false
+reviewed: true
 session: publish-bread-pitt-starter-page
 tags:
   - Abbey Root

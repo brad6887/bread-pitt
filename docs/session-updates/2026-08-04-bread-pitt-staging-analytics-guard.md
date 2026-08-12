@@ -3,7 +3,7 @@ title: "Bread Pitt Staging Analytics Guard"
 description: "Restricted Bread Pitt Umami analytics to the public domains so internal staging visits are not counted."
 date: 2026-08-04
 status: pending
-reviewed: false
+reviewed: true
 session: bread-pitt-staging-analytics-guard
 tags:
   - Bread Pitt

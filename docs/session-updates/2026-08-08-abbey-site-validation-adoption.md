@@ -3,7 +3,7 @@ title: "Abbey Site Validation Adoption"
 description: "Adopted project-aware Abbey site and media configuration with a read-only required-route validation gate."
 date: 2026-08-08
 status: complete
-reviewed: false
+reviewed: true
 session: abbey-site-validation-adoption
 tags:
   - Bread Pitt
