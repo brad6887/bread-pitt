@@ -39,3 +39,7 @@ site:
       - /starter/
       - /bakes/
       - /bakes/bake001-first-big-role/
+  publish:
+    method: ssh-release
+    target: abbey-deploy@sites01:/srv/www/breadpitt.net
+    domain: breadpitt.net
