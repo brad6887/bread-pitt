@@ -29,6 +29,15 @@ publish:
     intake_manifest: content/bakes/2026/bake002/media-intake.json
     manifest: content/bakes/2026/bake002/media-publication.json
 
+  bake003:
+    source: working/media/bakes/2026/bake003
+    destination: public/images/bakes/2026/bake003
+    intake_manifest: content/bakes/2026/bake003/media-intake.json
+    manifest: content/bakes/2026/bake003/media-publication.json
+    output_format: jpg
+    max_edge: 2000
+    quality: 85
+
   starter_cycle_pilot:
     source: media/prepared/starter-cycle-pilot
     destination: public/images/starter-cycles

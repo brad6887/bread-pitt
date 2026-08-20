@@ -1,0 +1,146 @@
+schema_version: 1
+
+bake: bake003
+source_directory: working/media/bakes/2026/bake003
+rename_manifest: working/media/bakes/2026/bake003/.abbey-rename-manifest.json
+
+galleries:
+  starter:
+    layout: comparison
+
+  mixing:
+    layout: grid
+
+  first-fold:
+    layout: comparison
+
+  second-fold:
+    layout: grid
+
+  third-fold:
+    layout: grid
+
+  bulk-fermentation:
+    layout: grid
+
+  pan-proof:
+    layout: comparison
+
+photos:
+  - id: starter-fed
+    prepared_image: bake003-fed-bread-pitt-2026-08-12.jpg
+    caption: "Bread Pitt just after the 4:38 am feeding."
+    group: starter
+    position: before
+
+  - id: starter-ready
+    prepared_image: bake003-starter-ready-2026-08-12.jpg
+    caption: "Bread Pitt active, bubbly, and ready for focaccia."
+    group: starter
+    position: after
+
+  - id: ingredients
+    prepared_image: bake003-ingredints-in-mixer-2026-08-12.jpg
+    caption: "The focaccia ingredients in Dough Cloony."
+    group: mixing
+
+  - id: mixing
+    prepared_image: bake003-mixing-2026-08-12.jpg
+    caption: "The sticky dough coming together in the mixer."
+    group: mixing
+
+  - id: mixed
+    prepared_image: bake003-mixed-2026-08-12.jpg
+    caption: "The dough after five minutes of mixing."
+    group: mixing
+
+  - id: bowl-rest
+    prepared_image: bake003-dough-in-bowl-2026-08-12.jpg
+    caption: "The dough beginning its 30-minute rest in a lightly oiled bowl."
+
+  - id: first-fold-before
+    prepared_image: bake003-before-1st-fold-2026-08-12.jpg
+    caption: "The loose dough before the first fold."
+    group: first-fold
+    position: before
+
+  - id: first-fold-after
+    prepared_image: bake003-after-fist-fold-2026-08-12.jpg
+    caption: "The dough beginning to organize after the first fold."
+    group: first-fold
+    position: after
+
+  - id: second-fold-before
+    prepared_image: bake003-before-2nd-fold-2026-08-12.jpg
+    caption: "The dough before the second fold."
+    group: second-fold
+
+  - id: second-fold-temperature
+    prepared_image: bake003-dough-temp-2nd-fold-2026-08-12.jpg
+    caption: "The dough measured 76.3°F during the second fold."
+    group: second-fold
+
+  - id: second-fold-after
+    prepared_image: bake003-aftger-2nd-fold-2026-08-12.jpg
+    caption: "The dough stretching more smoothly after the second fold."
+    group: second-fold
+
+  - id: third-fold-temperature
+    prepared_image: bake003-dough-temp-3rd-fold-2026-08-12.jpg
+    caption: "The dough measured 74.3°F at the third fold."
+    group: third-fold
+
+  - id: third-fold-before
+    prepared_image: bake003-before-3rd-fold-2026-08-12.jpg
+    caption: "The dough before the third and final fold."
+    group: third-fold
+
+  - id: third-fold-after
+    prepared_image: bake003-after-3rd-fold-2026-08-12.jpg
+    caption: "The stronger, smoother dough after the third fold."
+    group: third-fold
+
+  - id: bulk-early
+    prepared_image: bake003-bulk-ferment-progress-2026-08-12-01.jpg
+    caption: "Bulk fermentation at 2:25 pm, complete with one impressive bubble."
+    group: bulk-fermentation
+
+  - id: bulk-early-temperature
+    prepared_image: bake003-dough-temp-2026-08-12-01.jpg
+    caption: "The dough measured 72.7°F at 2:25 pm."
+    group: bulk-fermentation
+
+  - id: bulk-late
+    prepared_image: bake003-bulk-ferment-progress-2026-08-12-02.jpg
+    caption: "The dough looking increasingly pillowy at 3:54 pm."
+    group: bulk-fermentation
+
+  - id: bulk-late-temperature
+    prepared_image: bake003-dough-temp-2026-08-12-02.jpg
+    caption: "The dough holding near 72°F late in bulk fermentation."
+    group: bulk-fermentation
+
+  - id: bulk-complete
+    prepared_image: bake003-bulk-ferment-complete-2026-08-12.jpg
+    caption: "Bulk fermentation complete at 4:40 pm."
+    group: bulk-fermentation
+
+  - id: pan
+    prepared_image: bake003-dogh-in-pan-2026-08-12.jpg
+    caption: "The dough settled into Bake Gyllenhaal."
+    group: pan-proof
+    position: before
+
+  - id: oven-ready
+    prepared_image: bake003-ready-for-oven-2026-08-12.jpg
+    caption: "Dimpled, oiled, and topped with salt and sliced garlic."
+    group: pan-proof
+    position: after
+
+  - id: hero
+    prepared_image: bake003-out-of-oven-2026-08-12.jpg
+    caption: "Bake003 fresh from the oven."
+
+  - id: crumb
+    prepared_image: bake003-crumb-2026-08-12.jpg
+    caption: "The light, irregular crumb inside Bake003."

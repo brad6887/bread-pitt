@@ -1,0 +1,36 @@
+schema_version: 1
+
+bake:
+  id: bake003
+  title: "Sourdough Focaccia"
+  tagline: "A patient afternoon, three rounds of folds, and a focaccia that landed in the win column."
+  started: 2026-08-12
+  completed: 2026-08-12
+  status: complete
+  rating: 9
+  rating_scale: 10
+
+relationships:
+  recipe:
+    slug: sourdough-focaccia
+  starter:
+    name: "Bread Pitt 2.0"
+    path: /starter/
+
+result:
+  summary: "Light, well-aerated focaccia with irregular holes, toasted garlic, and a slightly pale top."
+  internal_temperature_f: 212
+
+lessons:
+  - "Give the top a little more time or heat for deeper color next time."
+  - "Add a cooling rack to the Bread Pitt equipment lineup."
+  - "Trust the dough through a slow bulk fermentation."
+
+media:
+  directory: media/bakes/2026/bake003
+  photo_manifest: content/bakes/2026/bake003/photos.yml
+  hero: hero
+
+publication:
+  route: /bakes/bake003/
+  story: content/bakes/2026/bake003/story.md
