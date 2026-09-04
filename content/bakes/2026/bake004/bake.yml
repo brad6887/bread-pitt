@@ -1,0 +1,35 @@
+schema_version: 1
+
+bake:
+  id: bake004
+  title: "Light Whole Wheat Sandwich Loaf"
+  tagline: "A strong rise, a soft and even crumb, and a reminder that the dough gets the final vote."
+  started: 2026-09-03
+  completed: 2026-09-04
+  status: complete
+  rating: 9
+  rating_scale: 10
+
+relationships:
+  recipe:
+    slug: light-whole-wheat-sourdough-sandwich-loaf
+  starter:
+    name: "Bread Pitt 2.0"
+    path: /starter/
+
+result:
+  summary: "Excellent oven spring, a rich golden crust, and a soft, even crumb sturdy enough for daily sandwich bread."
+
+lessons:
+  - "Watch how the dough develops instead of chasing the recipe clock."
+  - "Refine the shaping to reduce occasional larger air pockets near the top."
+  - "Use a smaller, straighter-sided container to make the rise easier to judge."
+
+media:
+  directory: media/bakes/2026/bake004
+  photo_manifest: content/bakes/2026/bake004/photos.yml
+  hero: hero
+
+publication:
+  route: /bakes/bake004/
+  story: content/bakes/2026/bake004/story.md

@@ -1,0 +1,133 @@
+schema_version: 1
+
+bake: bake004
+source_directory: working/media/bakes/2026/bake004
+rename_manifest: working/media/bakes/2026/bake004/.abbey-rename-manifest.json
+
+galleries:
+  mixing:
+    layout: grid
+
+  first-fold:
+    layout: comparison
+
+  second-fold:
+    layout: comparison
+
+  third-fold:
+    layout: comparison
+
+  bulk-fermentation:
+    layout: grid
+
+  proof:
+    layout: grid
+
+photos:
+  - id: starter-ready
+    prepared_image: bake004-starter-2026-09-03-01.jpg
+    caption: "Bread Pitt active, bubbly, and ready for Bake004."
+
+  - id: starter-and-water
+    prepared_image: bake004-starter-and-water-2026-09-03.jpg
+    caption: "Bread Pitt and water in Dough Cloony at the start of the mix."
+    group: mixing
+
+  - id: shaggy-mix
+    prepared_image: bake004-shaggy-mix-2026-09-03.jpg
+    caption: "The shaggy dough before its short autolyse."
+    group: mixing
+
+  - id: six-minute-mix
+    prepared_image: bake004-6-min-mix-2026-09-03.jpg
+    caption: "The dough developing strength six minutes into mixing."
+    group: mixing
+
+  - id: final-mix
+    prepared_image: bake004-final-mix-2026-09-03.jpg
+    caption: "A smooth, cohesive dough at the end of mixing."
+    group: mixing
+
+  - id: first-fold-before
+    prepared_image: bake004-prefold-1-2026-09-03.jpg
+    caption: "The dough before the first fold."
+    group: first-fold
+    position: before
+
+  - id: first-fold-after
+    prepared_image: bake004-postfold1-2026-09-03.jpg
+    caption: "The dough after the first fold, with a little surface tearing still visible."
+    group: first-fold
+    position: after
+
+  - id: second-fold-before
+    prepared_image: bake004-prefold-2-2026-09-03.jpg
+    caption: "The dough relaxing before the second fold."
+    group: second-fold
+    position: before
+
+  - id: second-fold-after
+    prepared_image: bake004-post-fold-2-2026-09-03.jpg
+    caption: "A smoother, stronger dough after the second fold."
+    group: second-fold
+    position: after
+
+  - id: third-fold-before
+    prepared_image: bake004-prefold-3-2026-09-03.jpg
+    caption: "The dough before the third and final fold."
+    group: third-fold
+    position: before
+
+  - id: third-fold-after
+    prepared_image: bake004-postfold-3-2026-09-03.jpg
+    caption: "The dough holding its shape after the third fold."
+    group: third-fold
+    position: after
+
+  - id: bulk-start
+    prepared_image: bake004-bulk-start-2026-09-03.jpg
+    caption: "The start of bulk fermentation in the new Cambro container."
+    group: bulk-fermentation
+
+  - id: bulk-one
+    prepared_image: bake004-bulk-1-2026-09-03.jpg
+    caption: "The dough beginning to expand during bulk fermentation."
+    group: bulk-fermentation
+
+  - id: bulk-two
+    prepared_image: bake004-bulk-2-2026-09-03.jpg
+    caption: "Steady fermentation progress through the afternoon."
+    group: bulk-fermentation
+
+  - id: bulk-three
+    prepared_image: bake004-bulk-3-2026-09-03.jpg
+    caption: "The dough becoming fuller and more aerated late in bulk."
+    group: bulk-fermentation
+
+  - id: bulk-complete
+    prepared_image: bake004-bulk-4-2026-09-03.jpg
+    caption: "Bulk fermentation complete after a little over seven hours."
+    group: bulk-fermentation
+
+  - id: shaped
+    prepared_image: bake004-shaped-2026-09-03.jpg
+    caption: "The shaped loaf at the start of its final proof."
+    group: proof
+
+  - id: pre-fridge
+    prepared_image: bake004-pre-fridge-2026-09-03.jpg
+    caption: "The loaf just before its overnight rest in the refrigerator."
+    group: proof
+
+  - id: pre-oven
+    prepared_image: bake004-pre-oven-2026-09-04.jpg
+    caption: "The fully proofed loaf ready for the oven the next morning."
+    group: proof
+
+  - id: hero
+    prepared_image: bake004-cooked-loaf-2026-09-04.jpg
+    caption: "Bake004 cooling after an excellent rise and a rich golden bake."
+
+  - id: crumb
+    prepared_image: bake004-crumb-2026-09-04.jpg
+    caption: "The soft, even crumb of the finished sandwich loaf."
