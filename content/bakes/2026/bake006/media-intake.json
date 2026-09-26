@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "caption": "The shaggy dough at the start of the autolyse.",
+      "capture_date": "2026-09-20",
+      "original_image": "IMG_0514.JPG",
+      "published_image": "bake006-autolyze-2026-09-20.jpg"
+    },
+    {
+      "caption": "Bake006 after mixing: smooth, cohesive dough beneath the dough hook.",
+      "capture_date": "2026-09-20",
+      "original_image": "IMG_0515.JPG",
+      "published_image": "bake006-mixed-2026-09-20.jpg"
+    },
+    {
+      "caption": "The dough just after moving to the 2-quart Cambro for bulk fermentation.",
+      "capture_date": "2026-09-20",
+      "original_image": "IMG_0517.JPG",
+      "published_image": "bake006-moved-to-bulk-side-view-2026-09-20.jpg"
+    },
+    {
+      "caption": "Before the third fold, with the dough temperature in the low 70s.",
+      "capture_date": "2026-09-20",
+      "original_image": "IMG_0523.JPG",
+      "published_image": "bake006-before-3rd-fold-plus-temp-2026-09-20.jpg"
+    },
+    {
+      "caption": "The dough after the third fold, rounded and holding its shape.",
+      "capture_date": "2026-09-20",
+      "original_image": "IMG_0524.JPG",
+      "published_image": "bake006-after-3rd-fold-top-view-2026-09-20.jpg"
+    },
+    {
+      "caption": "The expanded dough at the end of bulk fermentation, viewed through the Cambro's side.",
+      "capture_date": "2026-09-20",
+      "original_image": "IMG_0528.JPG",
+      "published_image": "bake006-after-bulk-side-view-2026-09-20.jpg"
+    },
+    {
+      "caption": "Shaped and in the floured banneton, ready for an overnight cold proof.",
+      "capture_date": "2026-09-20",
+      "original_image": "IMG_0529.JPG",
+      "published_image": "bake006-shaped-in-banneton-2026-09-20.jpg"
+    },
+    {
+      "caption": "The next morning, turned out onto the baking dish before scoring.",
+      "capture_date": "2026-09-21",
+      "original_image": "IMG_0530.JPG",
+      "published_image": "bake006-next-morning-dough-on-baking-dish-2026-09-21.jpg"
+    },
+    {
+      "caption": "The baked control loaf, with strong oven spring and a pronounced ear.",
+      "capture_date": "2026-09-21",
+      "original_image": "IMG_0531.JPG",
+      "published_image": "bake006-baked-loaf-2026-09-21.jpg"
+    },
+    {
+      "caption": "The crumb: plenty of smaller cells supporting a handful of larger pockets.",
+      "capture_date": "2026-09-21",
+      "original_image": "IMG_0532.JPG",
+      "published_image": "bake006-crumb-shot-2026-09-21.jpg"
+    }
+  ]
+}

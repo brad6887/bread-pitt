@@ -1,0 +1,64 @@
+schema_version: 1
+
+bake: bake006
+source_directory: working/media/bakes/2026/bake006
+rename_manifest: working/media/bakes/2026/bake006/.abbey-rename-manifest.json
+
+galleries:
+  initial-mix:
+    layout: comparison
+  dough-strength:
+    layout: comparison
+  bulk-rise:
+    layout: comparison
+  cold-proof:
+    layout: comparison
+
+photos:
+  - id: autolyse
+    prepared_image: bake006-autolyze-2026-09-20.jpg
+    caption: "The shaggy dough at the start of the autolyse."
+    group: initial-mix
+
+  - id: mixed
+    prepared_image: bake006-mixed-2026-09-20.jpg
+    caption: "Bake006 after mixing: smooth, cohesive dough beneath the dough hook."
+    group: initial-mix
+
+  - id: bulk-start
+    prepared_image: bake006-moved-to-bulk-side-view-2026-09-20.jpg
+    caption: "The dough just after moving to the 2-quart Cambro for bulk fermentation."
+    group: bulk-rise
+
+  - id: dough-temperature
+    prepared_image: bake006-before-3rd-fold-plus-temp-2026-09-20.jpg
+    caption: "Before the third fold, with the dough temperature in the low 70s."
+    group: dough-strength
+
+  - id: third-fold
+    prepared_image: bake006-after-3rd-fold-top-view-2026-09-20.jpg
+    caption: "The dough after the third fold, rounded and holding its shape."
+    group: dough-strength
+
+  - id: bulk-finished
+    prepared_image: bake006-after-bulk-side-view-2026-09-20.jpg
+    caption: "The expanded dough at the end of bulk fermentation, viewed through the Cambro's side."
+    group: bulk-rise
+
+  - id: shaped
+    prepared_image: bake006-shaped-in-banneton-2026-09-20.jpg
+    caption: "Shaped and in the floured banneton, ready for an overnight cold proof."
+    group: cold-proof
+
+  - id: next-morning
+    prepared_image: bake006-next-morning-dough-on-baking-dish-2026-09-21.jpg
+    caption: "The next morning, turned out onto the baking dish before scoring."
+    group: cold-proof
+
+  - id: hero
+    prepared_image: bake006-baked-loaf-2026-09-21.jpg
+    caption: "The baked control loaf, with strong oven spring and a pronounced ear."
+
+  - id: crumb
+    prepared_image: bake006-crumb-shot-2026-09-21.jpg
+    caption: "The crumb: plenty of smaller cells supporting a handful of larger pockets."

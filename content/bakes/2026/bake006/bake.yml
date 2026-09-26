@@ -1,0 +1,36 @@
+schema_version: 1
+
+bake:
+  id: bake006
+  title: "Sourdough Control Loaf"
+  tagline: "A straightforward white sourdough boule, a pronounced ear, and a useful lesson in staying out of the dough's way."
+  started: 2026-09-20
+  completed: 2026-09-21
+  status: complete
+  rating: 9
+  rating_scale: 10
+
+relationships:
+  recipe:
+    slug: sourdough-control-loaf
+  starter:
+    name: "Bread Pitt 2.0"
+    path: /starter/
+
+result:
+  summary: "Strong oven spring, a pronounced ear, and a moderately open crumb. A couple of larger shaping pockets kept this baseline loaf from a perfect score."
+
+lessons:
+  - "The 2-quart Cambro made a single loaf's bulk rise easier to judge."
+  - "Three stretch-and-fold sets worked well in place of the recipe's lamination."
+  - "An overnight cold proof and baking straight from the refrigerator produced a useful baseline loaf."
+  - "Watch for larger pockets introduced during shaping."
+
+media:
+  directory: media/bakes/2026/bake006
+  photo_manifest: content/bakes/2026/bake006/photos.yml
+  hero: hero
+
+publication:
+  route: /bakes/bake006/
+  story: content/bakes/2026/bake006/story.md

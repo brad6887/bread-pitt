@@ -1,0 +1,348 @@
+{
+  "configuration": ".abbey/media.yml",
+  "configuration_source": "active project",
+  "destination": "public/images/bakes/2026/bake006",
+  "intake_manifest": "content/bakes/2026/bake006/media-intake.json",
+  "items": [
+    {
+      "caption": "The shaggy dough at the start of the autolyse.",
+      "capture_date": "2026-09-20",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake006/bake006-autolyze-2026-09-20.jpg",
+        "sha256": "f2440088f69ecc73aabe33dbbdfbd431831308b9411f58e0b6ebedd892c55a65",
+        "width": 1500
+      },
+      "original_image": "IMG_0514.JPG",
+      "prepared_image": "bake006-autolyze-2026-09-20.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake006/bake006-autolyze-2026-09-20.jpg",
+        "sha256": "f43c959e601eeafdb50886c8e6cadfc6d3f623db027d2e246c49e1331d635c5d"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Bake006 after mixing: smooth, cohesive dough beneath the dough hook.",
+      "capture_date": "2026-09-20",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake006/bake006-mixed-2026-09-20.jpg",
+        "sha256": "952731f2bf34e5e267c3ca6211e8f36dcdd65e8c2fe313d43cbe8758d0d4972e",
+        "width": 1500
+      },
+      "original_image": "IMG_0515.JPG",
+      "prepared_image": "bake006-mixed-2026-09-20.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake006/bake006-mixed-2026-09-20.jpg",
+        "sha256": "0c736ddb4369aed4f8a6182a261fb76b0d7e3274da72ce0986c88396d6980808"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The dough just after moving to the 2-quart Cambro for bulk fermentation.",
+      "capture_date": "2026-09-20",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake006/bake006-moved-to-bulk-side-view-2026-09-20.jpg",
+        "sha256": "57c68effccae4757c9afcafd430f82890a888ef17f0a825556c430af6cd9818a",
+        "width": 1500
+      },
+      "original_image": "IMG_0517.JPG",
+      "prepared_image": "bake006-moved-to-bulk-side-view-2026-09-20.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake006/bake006-moved-to-bulk-side-view-2026-09-20.jpg",
+        "sha256": "b08ccdcf65ae5318c0466235cca9720a8c9f9b0e2eeedf115494829bff5dcc27"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Before the third fold, with the dough temperature in the low 70s.",
+      "capture_date": "2026-09-20",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake006/bake006-before-3rd-fold-plus-temp-2026-09-20.jpg",
+        "sha256": "7b3822f9e7d31faa2194b6555a7b343d011d43ada2d5ecfb8f809ca257fdb670",
+        "width": 1500
+      },
+      "original_image": "IMG_0523.JPG",
+      "prepared_image": "bake006-before-3rd-fold-plus-temp-2026-09-20.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake006/bake006-before-3rd-fold-plus-temp-2026-09-20.jpg",
+        "sha256": "3738afa42d4d167bd79844ca262283378d17146bafb5b43c44a0d5daabb4fa9b"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The dough after the third fold, rounded and holding its shape.",
+      "capture_date": "2026-09-20",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake006/bake006-after-3rd-fold-top-view-2026-09-20.jpg",
+        "sha256": "30665e944833872d0f1250e97ce7f21238a1fd30a28bc2b1e09ad0a275833710",
+        "width": 1500
+      },
+      "original_image": "IMG_0524.JPG",
+      "prepared_image": "bake006-after-3rd-fold-top-view-2026-09-20.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake006/bake006-after-3rd-fold-top-view-2026-09-20.jpg",
+        "sha256": "f886a65553e3bea8ebe8b310fcc305b1ae16a79d745e9bc5dfb67faced746c89"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The expanded dough at the end of bulk fermentation, viewed through the Cambro's side.",
+      "capture_date": "2026-09-20",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake006/bake006-after-bulk-side-view-2026-09-20.jpg",
+        "sha256": "8d3cf5e80553f173dca387bca6cf173cdd170c17964061e1b99e64a7642b2071",
+        "width": 1500
+      },
+      "original_image": "IMG_0528.JPG",
+      "prepared_image": "bake006-after-bulk-side-view-2026-09-20.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake006/bake006-after-bulk-side-view-2026-09-20.jpg",
+        "sha256": "1fd9ec621b1d5a55ea8597af301279fdcb77ecf83eef2981e4753bc13ad66aea"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Shaped and in the floured banneton, ready for an overnight cold proof.",
+      "capture_date": "2026-09-20",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake006/bake006-shaped-in-banneton-2026-09-20.jpg",
+        "sha256": "4d5b0dcfc6cf003b186a6142d6b5e10de852a163066de23874da2379b2713eec",
+        "width": 1500
+      },
+      "original_image": "IMG_0529.JPG",
+      "prepared_image": "bake006-shaped-in-banneton-2026-09-20.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake006/bake006-shaped-in-banneton-2026-09-20.jpg",
+        "sha256": "8005421e279153b9a3c8f84e16936e2c049271ea0f55705922180c8c216b4ad5"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The next morning, turned out onto the baking dish before scoring.",
+      "capture_date": "2026-09-21",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake006/bake006-next-morning-dough-on-baking-dish-2026-09-21.jpg",
+        "sha256": "8c1fe2629d17d4ab26d42038cf1473cf4abb2ec5ea75a8b71a180e38e7ad067d",
+        "width": 1500
+      },
+      "original_image": "IMG_0530.JPG",
+      "prepared_image": "bake006-next-morning-dough-on-baking-dish-2026-09-21.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake006/bake006-next-morning-dough-on-baking-dish-2026-09-21.jpg",
+        "sha256": "4c0be375633de383c3daa8f56ad6668cfa0835a79489f535835f3d44522ba47c"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The baked control loaf, with strong oven spring and a pronounced ear.",
+      "capture_date": "2026-09-21",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake006/bake006-baked-loaf-2026-09-21.jpg",
+        "sha256": "7b0492053af4de9710d44f374fd5b6a6ed80b6e720a7e201fecaa706d047d77e",
+        "width": 1500
+      },
+      "original_image": "IMG_0531.JPG",
+      "prepared_image": "bake006-baked-loaf-2026-09-21.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake006/bake006-baked-loaf-2026-09-21.jpg",
+        "sha256": "42d612b1ae00cba6a598d42cace10fed902d882674da1e7af6eb79691f675725"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The crumb: plenty of smaller cells supporting a handful of larger pockets.",
+      "capture_date": "2026-09-21",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake006/bake006-crumb-shot-2026-09-21.jpg",
+        "sha256": "521cecf19c3b3e8b29659a6f71da698e3cfdf895a82abde7635b48dc38c22d17",
+        "width": 1500
+      },
+      "original_image": "IMG_0532.JPG",
+      "prepared_image": "bake006-crumb-shot-2026-09-21.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake006/bake006-crumb-shot-2026-09-21.jpg",
+        "sha256": "331706fc34eabaddd7a03dc2f08121bdefe733a2806af592f04bd3e3702f43b3"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    }
+  ],
+  "profile": {
+    "maximum_edge": 2000,
+    "metadata_removed": true,
+    "output_format": "jpg",
+    "quality": 85
+  },
+  "project": "Bread Pitt",
+  "schema_version": 1,
+  "source": "working/media/bakes/2026/bake006",
+  "workflow": "bake006"
+}
