@@ -1,6 +1,6 @@
 ---
 title: "Publish Bake005 Sourdough Waffles"
-description: "Prepared the Bake005 waffle story and ten photos through Bread Pitt's canonical bake and media workflow."
+description: "Published and verified the Bake005 waffle story and ten photos through Bread Pitt's canonical bake and media workflow."
 date: 2026-09-26
 status: complete
 reviewed: false
@@ -56,8 +56,19 @@ IMG_0385's original caption says "after refrigerator," but its capture time is S
 
 ## Next Steps
 
-Commit and push this validated publication package, activate the configured SSH release from ubuntu-dev01, and verify the live page, all ten images, bake index, recipe backlink, and active release.
+Publication is complete. No follow-up is required for Bake005.
 
 ## Notes
 
-The production route is ubuntu-dev01 to abbey-deploy@sites01:/srv/www/breadpitt.net, as configured in .abbey/project.yml. Existing planning documents contain historical GitHub Pages references; the current publication configuration governs this release.
+The configured SSH route is ubuntu-dev01 to abbey-deploy@sites01:/srv/www/breadpitt.net. The repository also retains an active GitHub Pages deployment workflow, and public DNS currently resolves to GitHub Pages. Both deployments completed successfully; neither hosting configuration was changed.
+
+## Publication Verification
+
+- Publication commit: a229d02ab89fb06ca4d165d0a6113a7b004283c8, pushed to main.
+- Active SSH release: /srv/www/breadpitt.net/releases/20260926T122407Z.
+- GitHub Pages run: https://github.com/brad6887/bread-pitt/actions/runs/36241787554, completed successfully.
+- Live page: https://breadpitt.net/bakes/bake005/, HTTP 200 with the finalized facts and rating.
+- All ten live image responses returned HTTP 200 and matched the SHA-256 hashes of the validated public derivatives.
+- Live bake index, recipe backlink, and Bake004 navigation all point to Bake005.
+- Browser review confirmed the live page rendered successfully after deployment completed.
+- Abbey end certified a clean checkout synchronized with origin/main.
