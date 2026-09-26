@@ -1,8 +1,8 @@
 ---
 title: "Publish Bake006 Sourdough Control Loaf"
-description: "Prepare the finalized Bake006 narrative, 9/10 score, and selected captioned photos for publication."
+description: "Published and verified the finalized Bake006 narrative, 9/10 score, and ten selected captioned photos."
 date: 2026-09-26
-status: in-progress
+status: complete
 reviewed: false
 session: publish-bake006-sourdough-control-loaf
 tags:
@@ -59,4 +59,17 @@ Source captions and capture timestamps remain in the rename/intake provenance. N
 
 ## Next Steps
 
-Commit and push the scoped publication, activate the configured SSH release, verify GitHub Pages and the public page, then record the release evidence.
+Publication is complete. No follow-up is required for Bake006.
+
+
+## Publication Verification
+
+- Publication commit: 1bbb726c1dfd4cd48d6523129345e805d179d2ff, pushed to main.
+- Active SSH release: /srv/www/breadpitt.net/releases/20260926T124403Z.
+- GitHub Pages run: https://github.com/brad6887/bread-pitt/actions/runs/36242845609, completed successfully.
+- Live page: https://breadpitt.net/bakes/bake006/, HTTP 200.
+- Live page SHA-256 exactly matches the validated build: 8b92397a8cd31072f7cbc15f888ff9c470c10ddb26fb46ab02e4a7242d638577.
+- All ten live images returned HTTP 200 and matched their publication-manifest hashes.
+- Live bake index, Control Loaf recipe backlink, and Bake005 navigation point to Bake006.
+- Browser review confirmed the published narrative and 9/10 score.
+- Bake001's HTML is byte-identical between the previous and current SSH releases, confirming the generated intake reorder had no page effect.
