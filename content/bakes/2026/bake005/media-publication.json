@@ -1,0 +1,348 @@
+{
+  "configuration": ".abbey/media.yml",
+  "configuration_source": "active project",
+  "destination": "public/images/bakes/2026/bake005",
+  "intake_manifest": "content/bakes/2026/bake005/media-intake.json",
+  "items": [
+    {
+      "caption": "The ingredients for Bake005, ready to mix.",
+      "capture_date": "2026-09-08",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake005/bake005-ingredients-2026-09-08.jpg",
+        "sha256": "ebb8be89ba5178e4c21621c8389e2f98c06050b52cb6ea7ac5e0074fc562b6cc",
+        "width": 1500
+      },
+      "original_image": "IMG_0378.JPG",
+      "prepared_image": "bake005-ingredients-2026-09-08.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake005/bake005-ingredients-2026-09-08.jpg",
+        "sha256": "fb771fa2b36b88c40fe22543c7540509bf2a5557135eb7ce06c0641ae9672e6d"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The thick, shaggy mixture of sourdough discard, flour, and water.",
+      "capture_date": "2026-09-08",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake005/bake005-mixed-dough-2026-09-08.jpg",
+        "sha256": "1f6d4ebe2a146f00abb1fb641bd186e8208b3cd209583aaa94de56aa168e2cfe",
+        "width": 1500
+      },
+      "original_image": "IMG_0379.JPG",
+      "prepared_image": "bake005-mixed-dough-2026-09-08.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake005/bake005-mixed-dough-2026-09-08.jpg",
+        "sha256": "753755b908e04798c0b54353f667aebc39ec72521ecac6a74a9c2ec4fc2123e8"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The rested sourdough base, with little bubbles across the surface.",
+      "capture_date": "2026-09-08",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake005/bake005-rested-dough-after-refrigerator-2026-09-08.jpg",
+        "sha256": "13b180615ce073148fdfcb3f2bcd6babd48ec9eadd8721806d1e2febaba3134f",
+        "width": 1500
+      },
+      "original_image": "IMG_0385.JPG",
+      "prepared_image": "bake005-rested-dough-after-refrigerator-2026-09-08.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake005/bake005-rested-dough-after-refrigerator-2026-09-08.jpg",
+        "sha256": "1a7ae0cd678b49fe70c253eb3a9edfd21ce775dffe02c8d23d7921e0c1c3efe6"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Melted butter ready for the morning's final mix.",
+      "capture_date": "2026-09-09",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake005/bake005-melted-butter-2026-09-09.jpg",
+        "sha256": "10e0b9fad466ae41114653e81010465d59a6391bf228efd5d1f8a80a7fda1ad6",
+        "width": 1500
+      },
+      "original_image": "IMG_0386.JPG",
+      "prepared_image": "bake005-melted-butter-2026-09-09.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake005/bake005-melted-butter-2026-09-09.jpg",
+        "sha256": "ce195297be3f90276c57182d0241442f27929a848ad347ac9556dbb4f3e1b17f"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The finished waffle batter after mixing in the remaining ingredients.",
+      "capture_date": "2026-09-09",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake005/bake005-mixed-final-ingredients-2026-09-09.jpg",
+        "sha256": "d17d8b4ae838fdc119d84cfc0d8f9f0168821e13a6d85ab39c03631f3a866570",
+        "width": 1500
+      },
+      "original_image": "IMG_0389.JPG",
+      "prepared_image": "bake005-mixed-final-ingredients-2026-09-09.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake005/bake005-mixed-final-ingredients-2026-09-09.jpg",
+        "sha256": "b2d4f6b172ccd5981a7ed9db8bbfe2a4a16886c0bf3051b0bd314d62ef2ea65f"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Batter in the little red waffle iron.",
+      "capture_date": "2026-09-09",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake005/bake005-dough-in-waffle-iron-2026-09-09.jpg",
+        "sha256": "27cb9e5e12574c856bead9bcd1c123a2db4f77fe98267d21859b5005acc2407c",
+        "width": 1500
+      },
+      "original_image": "IMG_0390.JPG",
+      "prepared_image": "bake005-dough-in-waffle-iron-2026-09-09.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake005/bake005-dough-in-waffle-iron-2026-09-09.jpg",
+        "sha256": "5853f0fb070ad2230cf518cb81395d2d3ed50ce71a115f643340dada54166d7a"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The evidence for using slightly less than 1/4 cup of batter.",
+      "capture_date": "2026-09-09",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake005/bake005-overflowing-waffle-iron-2026-09-09.jpg",
+        "sha256": "ad96059393e731d131fea7acc82122a44f633a8bcf211f1c9d31143c4efda044",
+        "width": 1500
+      },
+      "original_image": "IMG_0392.JPG",
+      "prepared_image": "bake005-overflowing-waffle-iron-2026-09-09.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake005/bake005-overflowing-waffle-iron-2026-09-09.jpg",
+        "sha256": "3cace6bc7460c45faf901e66dbeadf8de0da412d76f0465e4d1c7f1d1485f549"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "The first mini waffle, browned and ready to eat.",
+      "capture_date": "2026-09-09",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake005/bake005-first-waffle-2026-09-09.jpg",
+        "sha256": "6eedf09c69551404c176ab95c0f81112d8eadce06c6510135c34ddd0900c7a29",
+        "width": 1500
+      },
+      "original_image": "IMG_0391.JPG",
+      "prepared_image": "bake005-first-waffle-2026-09-09.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake005/bake005-first-waffle-2026-09-09.jpg",
+        "sha256": "0ddceb575c41fc0a5e7275fcf09773eccd7585c26797c35ddfe653918c180324"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "A respectable waffle pile from a batch that made 14 mini waffles.",
+      "capture_date": "2026-09-09",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake005/bake005-full-stack-2026-09-09.jpg",
+        "sha256": "9fc131fff74e13b7ebb19cb4a359d779cf99e9c323d69a28d795fd2e5744ec6c",
+        "width": 1500
+      },
+      "original_image": "IMG_0393.JPG",
+      "prepared_image": "bake005-full-stack-2026-09-09.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake005/bake005-full-stack-2026-09-09.jpg",
+        "sha256": "a640fd5c8958077d57264b81e73243ce38eea9a7b0117240a431d7d9e7004271"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    },
+    {
+      "caption": "Bake005 served with butter and preserves.",
+      "capture_date": "2026-09-09",
+      "derivative": {
+        "format": "jpg",
+        "height": 2000,
+        "path": "public/images/bakes/2026/bake005/bake005-plated-waffle-2026-09-09.jpg",
+        "sha256": "9d5939889194ab31a631e3c04028e3fa383d35c4682a7219532eeb111b117049",
+        "width": 1500
+      },
+      "original_image": "IMG_0394.JPG",
+      "prepared_image": "bake005-plated-waffle-2026-09-09.jpg",
+      "source": {
+        "canonical_original_preserved": true,
+        "path": "working/media/bakes/2026/bake005/bake005-plated-waffle-2026-09-09.jpg",
+        "sha256": "9a847b58651b4a79d609d0209c5bbdaae4cd8d4c919ce276e40534f5e63dd1a5"
+      },
+      "tools": {
+        "exiftool": "12.76",
+        "imagemagick": "Version: ImageMagick 6.9.12-98 Q16 x86_64 18038 https://legacy.imagemagick.org"
+      },
+      "transformation": {
+        "auto_orient": true,
+        "colorspace": "sRGB",
+        "maximum_edge": 2000,
+        "metadata_removed": true,
+        "quality": 85
+      },
+      "validation": {
+        "private_metadata_detected": false,
+        "source_hash_unchanged": true
+      }
+    }
+  ],
+  "profile": {
+    "maximum_edge": 2000,
+    "metadata_removed": true,
+    "output_format": "jpg",
+    "quality": 85
+  },
+  "project": "Bread Pitt",
+  "schema_version": 1,
+  "source": "working/media/bakes/2026/bake005",
+  "workflow": "bake005"
+}

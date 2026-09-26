@@ -1,0 +1,35 @@
+schema_version: 1
+
+bake:
+  id: bake005
+  title: "Sourdough Waffles"
+  tagline: "Crisp outside, light and airy inside, and a useful lesson in the capacity of a mini waffle iron."
+  started: 2026-09-08
+  completed: 2026-09-09
+  status: complete
+  rating: 10
+  rating_scale: 10
+
+relationships:
+  recipe:
+    slug: sourdough-discard-pancakes-waffles
+  starter:
+    name: "Bread Pitt 2.0"
+    path: /starter/
+
+result:
+  summary: "Fourteen mini waffles with crisp outsides and light, airy centers. No recipe changes needed."
+
+lessons:
+  - "The base worked well after about 10.5 hours at room temperature followed by overnight refrigeration."
+  - "Use slightly less than 1/4 cup of batter per mini waffle to avoid overflow."
+  - "Keep the recipe as-is."
+
+media:
+  directory: media/bakes/2026/bake005
+  photo_manifest: content/bakes/2026/bake005/photos.yml
+  hero: hero
+
+publication:
+  route: /bakes/bake005/
+  story: content/bakes/2026/bake005/story.md

@@ -1,0 +1,60 @@
+schema_version: 1
+
+bake: bake005
+source_directory: working/media/bakes/2026/bake005
+rename_manifest: working/media/bakes/2026/bake005/.abbey-rename-manifest.json
+
+galleries:
+  initial-mix:
+    layout: grid
+  finishing-batter:
+    layout: grid
+  waffle-iron:
+    layout: grid
+
+photos:
+  - id: ingredients
+    prepared_image: bake005-ingredients-2026-09-08.jpg
+    caption: "The ingredients for Bake005, ready to mix."
+    group: initial-mix
+
+  - id: initial-mix
+    prepared_image: bake005-mixed-dough-2026-09-08.jpg
+    caption: "The thick, shaggy mixture of sourdough discard, flour, and water."
+    group: initial-mix
+
+  - id: rested-base
+    prepared_image: bake005-rested-dough-after-refrigerator-2026-09-08.jpg
+    caption: "The rested sourdough base, with little bubbles across the surface."
+
+  - id: melted-butter
+    prepared_image: bake005-melted-butter-2026-09-09.jpg
+    caption: "Melted butter ready for the morning's final mix."
+    group: finishing-batter
+
+  - id: finished-batter
+    prepared_image: bake005-mixed-final-ingredients-2026-09-09.jpg
+    caption: "The finished waffle batter after mixing in the remaining ingredients."
+    group: finishing-batter
+
+  - id: batter-in-iron
+    prepared_image: bake005-dough-in-waffle-iron-2026-09-09.jpg
+    caption: "Batter in the little red waffle iron."
+    group: waffle-iron
+
+  - id: overflow
+    prepared_image: bake005-overflowing-waffle-iron-2026-09-09.jpg
+    caption: "The evidence for using slightly less than 1/4 cup of batter."
+    group: waffle-iron
+
+  - id: first-waffle
+    prepared_image: bake005-first-waffle-2026-09-09.jpg
+    caption: "The first mini waffle, browned and ready to eat."
+
+  - id: waffle-stack
+    prepared_image: bake005-full-stack-2026-09-09.jpg
+    caption: "A respectable waffle pile from a batch that made 14 mini waffles."
+
+  - id: hero
+    prepared_image: bake005-plated-waffle-2026-09-09.jpg
+    caption: "Bake005 served with butter and preserves."

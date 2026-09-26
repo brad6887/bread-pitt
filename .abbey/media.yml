@@ -47,6 +47,15 @@ publish:
     max_edge: 2000
     quality: 85
 
+  bake005:
+    source: working/media/bakes/2026/bake005
+    destination: public/images/bakes/2026/bake005
+    intake_manifest: content/bakes/2026/bake005/media-intake.json
+    manifest: content/bakes/2026/bake005/media-publication.json
+    output_format: jpg
+    max_edge: 2000
+    quality: 85
+
   starter_cycle_pilot:
     source: media/prepared/starter-cycle-pilot
     destination: public/images/starter-cycles

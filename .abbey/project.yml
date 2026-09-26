@@ -12,6 +12,7 @@ workflow:
 validation:
   commands:
     - corepack pnpm run bake:intake check content/bakes/2026/bake001
+    - corepack pnpm run bake:intake check content/bakes/2026/bake005
     - corepack pnpm run build
     - git diff --check
 
@@ -32,6 +33,7 @@ site:
     public_root: public
     media_manifests:
       - content/bakes/2026/bake001/media-publication.json
+      - content/bakes/2026/bake005/media-publication.json
       - generated/media/starter-cycle-pilot.json
     required_routes:
       - /
@@ -39,6 +41,7 @@ site:
       - /starter/
       - /bakes/
       - /bakes/bake001-first-big-role/
+      - /bakes/bake005/
   publish:
     method: ssh-release
     target: abbey-deploy@sites01:/srv/www/breadpitt.net
